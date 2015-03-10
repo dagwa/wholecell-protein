@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
+<model metaid="untitled" id="untitled">
+<annotation/>
+<listOfUnitDefinitions>
+<unitDefinition metaid="substance" id="substance" name="substance">
+<listOfUnits>
+<unit metaid="CDMT00026" kind="mole"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="volume" id="volume" name="volume">
+<listOfUnits>
+<unit metaid="CDMT00027" kind="litre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="area" id="area" name="area">
+<listOfUnits>
+<unit metaid="CDMT00028" kind="metre" exponent="2"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="length" id="length" name="length">
+<listOfUnits>
+<unit metaid="CDMT00029" kind="metre"/>
+</listOfUnits>
+</unitDefinition>
+<unitDefinition metaid="time" id="time" name="time">
+<listOfUnits>
+<unit metaid="CDMT00030" kind="second"/>
+</listOfUnits>
+</unitDefinition>
+</listOfUnitDefinitions>
+<listOfCompartments>
+<compartment metaid="default" id="default" size="1" units="volume"/>
+<compartment metaid="c1" id="c1" name="c" size="1" units="volume" outside="default">
+<annotation/>
+</compartment>
+<compartment metaid="c2" id="c2" name="tc" size="1" units="volume" outside="c1">
+<annotation/>
+</compartment>
+<compartment metaid="c3" id="c3" name="m" size="1" units="volume" outside="default">
+<annotation/>
+</compartment>
+<compartment metaid="c4" id="c4" name="mt" size="1" units="volume" outside="c3">
+<annotation/>
+</compartment>
+</listOfCompartments>
+<listOfSpecies>
+<species metaid="s2" id="s2" name="Hmw1" compartment="c1" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s3" id="s3" name="Hmw2" compartment="c1" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s4" id="s4" name="Hmw3" compartment="c1" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s5" id="s5" name="MgPa" compartment="c3" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s6" id="s6" name="P200" compartment="c1" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s7" id="s7" name="P32" compartment="c3" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s8" id="s8" name="P65" compartment="c1" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s9" id="s9" name="P110" compartment="c3" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s10" id="s10" name="P200" compartment="c2" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s11" id="s11" name="Hmw3" compartment="c2" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s12" id="s12" name="Hmw2" compartment="c2" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s13" id="s13" name="Hmw1" compartment="c2" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s14" id="s14" name="P65" compartment="c2" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s15" id="s15" name="MgPa" compartment="c4" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s16" id="s16" name="P32" compartment="c4" initialAmount="0">
+<annotation/>
+</species>
+<species metaid="s17" id="s17" name="P110" compartment="c4" initialAmount="0">
+<annotation/>
+</species>
+</listOfSpecies>
+<listOfReactions>
+<reaction metaid="re1" id="re1" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00001" species="s2"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00002" species="s13"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00003" species="s3"/>
+<modifierSpeciesReference metaid="CDMT00004" species="s12"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re2" id="re2" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00005" species="s3"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00006" species="s12"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00007" species="s2"/>
+<modifierSpeciesReference metaid="CDMT00008" species="s13"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re3" id="re3" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00009" species="s4"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00010" species="s11"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00011" species="s13"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re4" id="re4" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00012" species="s6"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00013" species="s10"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00014" species="s13"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re5" id="re5" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00015" species="s8"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00016" species="s14"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00017" species="s16"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re6" id="re6" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00018" species="s5"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00019" species="s15"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00020" species="s13"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re7" id="re7" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00021" species="s7"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00022" species="s16"/>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00023" species="s11"/>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re8" id="re8" reversible="false">
+<annotation/>
+<listOfReactants>
+<speciesReference metaid="CDMT00024" species="s9"/>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00025" species="s17"/>
+</listOfProducts>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>
