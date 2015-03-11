@@ -9,14 +9,14 @@
 <celldesigner:listOfComplexSpeciesAliases>
 <celldesigner:complexSpeciesAlias id="csa2" species="s25">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="9.0" y="867.0" w="113.0" h="62.0"/>
+<celldesigner:bounds x="9.0" y="867.0" w="153.0" h="79.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="113.0" height="62.0"/>
+<celldesigner:boxSize width="153.0" height="79.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -30,14 +30,14 @@
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa4" species="s26">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="555.5" y="866.0" w="112.0" h="60.0"/>
+<celldesigner:bounds x="520.5" y="866.0" w="147.0" h="81.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="112.0" height="60.0"/>
+<celldesigner:boxSize width="147.0" height="81.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -51,14 +51,14 @@
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa5" species="s9">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="912.0" y="866.0" w="124.0" h="58.0"/>
+<celldesigner:bounds x="912.0" y="866.0" w="126.0" h="80.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="124.0" height="58.0"/>
+<celldesigner:boxSize width="126.0" height="80.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -72,14 +72,14 @@
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa6" species="s6">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="375.5" y="866.0" w="112.0" h="66.0"/>
+<celldesigner:bounds x="375.5" y="866.0" w="103.0" h="81.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="112.0" height="66.0"/>
+<celldesigner:boxSize width="103.0" height="81.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -93,7 +93,7 @@
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa7" species="s35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="899.0" y="623.0" w="128.0" h="55.0"/>
+<celldesigner:bounds x="892.0" y="617.0" w="128.0" h="55.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
@@ -114,14 +114,14 @@
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa8" species="s36">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="562.0" y="623.0" w="113.0" h="54.0"/>
+<celldesigner:bounds x="555.0" y="617.0" w="138.0" h="58.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="113.0" height="54.0"/>
+<celldesigner:boxSize width="138.0" height="58.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -137,12 +137,12 @@
 <celldesigner:listOfSpeciesAliases>
 <celldesigner:speciesAlias id="sa5" species="s18">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="526.0" y="86.0" w="137.0" h="30.0"/>
+<celldesigner:bounds x="526.0" y="86.0" w="181.0" h="27.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="137.0" height="30.0"/>
+<celldesigner:boxSize width="181.0" height="27.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -156,12 +156,12 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa6" species="s19">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="29.5" y="254.0" w="134.0" h="32.0"/>
+<celldesigner:bounds x="29.5" y="254.0" w="177.0" h="32.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="134.0" height="32.0"/>
+<celldesigner:boxSize width="177.0" height="32.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -175,12 +175,12 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa8" species="s17">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="29.0" y="85.5" w="127.0" h="30.0"/>
+<celldesigner:bounds x="29.0" y="85.5" w="176.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="127.0" height="30.0"/>
+<celldesigner:boxSize width="176.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -194,12 +194,12 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa9" species="s23">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="8.0" y="614.5" w="163.0" h="62.0"/>
+<celldesigner:bounds x="8.0" y="614.5" w="212.0" h="60.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="163.0" height="62.0"/>
+<celldesigner:boxSize width="212.0" height="60.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -213,12 +213,12 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa10" species="s20">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="531.0" y="256.5" w="146.0" h="27.0"/>
+<celldesigner:bounds x="516.0" y="256.5" w="161.0" h="27.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="146.0" height="27.0"/>
+<celldesigner:boxSize width="161.0" height="27.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -232,12 +232,12 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa11" species="s21">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="29.0" y="408.5" w="146.0" h="27.0"/>
+<celldesigner:bounds x="29.0" y="408.5" w="179.0" h="27.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="146.0" height="27.0"/>
+<celldesigner:boxSize width="179.0" height="27.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -251,12 +251,12 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa12" species="s22">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="519.0" y="409.5" w="146.0" h="27.0"/>
+<celldesigner:bounds x="519.0" y="409.5" w="156.0" h="25.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="146.0" height="27.0"/>
+<celldesigner:boxSize width="156.0" height="25.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
@@ -365,7 +365,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa18" species="s7">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="900.5" y="87.25" w="126.0" h="30.0"/>
+<celldesigner:bounds x="900.5" y="85.25" w="126.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -574,7 +574,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa35" species="s38">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="702.5" y="498.75" w="100.0" h="33.0"/>
+<celldesigner:bounds x="732.5" y="514.75" w="100.0" h="33.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -593,7 +593,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa36" species="s37">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="595.0" y="544.25" w="100.0" h="33.0"/>
+<celldesigner:bounds x="623.0" y="546.25" w="100.0" h="33.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -612,7 +612,7 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa37" species="s39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="888.5" y="526.75" w="100.0" h="33.0"/>
+<celldesigner:bounds x="842.5" y="538.75" w="100.0" h="33.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -848,14 +848,14 @@
 <celldesigner:protein id="pr9" name="MG_205_DIMER" type="GENERIC"/>
 <celldesigner:protein id="pr10" name="MG_236_MONOMER" type="GENERIC"/>
 <celldesigner:protein id="pr11" name="MG_409_DIMER" type="GENERIC"/>
-<celldesigner:protein id="pr13" name="[MG_085_HEXAMER]" type="GENERIC"/>
-<celldesigner:protein id="pr14" name="[MG_101_MONOMER]" type="GENERIC"/>
-<celldesigner:protein id="pr15" name="[MG_127_MONOMER]" type="GENERIC"/>
-<celldesigner:protein id="pr16" name="[MG_205_DIMER]" type="GENERIC"/>
-<celldesigner:protein id="pr17" name="[MG_236_MONOMER]" type="GENERIC"/>
-<celldesigner:protein id="pr18" name="[MG_409_DIMER]" type="GENERIC"/>
-<celldesigner:protein id="pr19" name="[MG_203_204_TETRAMER]" type="GENERIC"/>
 <celldesigner:protein id="pr23" name="G6P" type="GENERIC"/>
+<celldesigner:protein id="pr24" name="MG_085_HEXAMER__inactive" type="GENERIC"/>
+<celldesigner:protein id="pr25" name="MG_127_MONOMER__inactive" type="GENERIC"/>
+<celldesigner:protein id="pr26" name="MG_236_MONOMER__inactive" type="GENERIC"/>
+<celldesigner:protein id="pr27" name="MG_203_204_TETRAMER__inactive" type="GENERIC"/>
+<celldesigner:protein id="pr28" name="MG_409_DIMER__inactive" type="GENERIC"/>
+<celldesigner:protein id="pr29" name="MG_205_DIMER__inactive" type="GENERIC"/>
+<celldesigner:protein id="pr30" name="MG_101_MONOMER__inactive" type="GENERIC"/>
 </celldesigner:listOfProteins>
 <celldesigner:listOfGenes/>
 <celldesigner:listOfRNAs/>
@@ -994,105 +994,6 @@
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s17" id="s17" name="[MG_085_HEXAMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr13</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s18" id="s18" name="[MG_101_MONOMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr14</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s19" id="s19" name="[MG_127_MONOMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr15</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s20" id="s20" name="[MG_205_DIMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr16</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s21" id="s21" name="[MG_236_MONOMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr17</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s22" id="s22" name="[MG_409_DIMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr18</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s23" id="s23" name="[MG_203_204_TETRAMER]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr19</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s25" id="s25" name="[ribosome_30S]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>[ribosome_30S]</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s26" id="s26" name="[ribosome_50S]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>[ribosome_50S]</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s27" id="s27" name="TEMPERATURE" compartment="default" initialAmount="0">
 <annotation>
 <celldesigner:extension>
@@ -1190,17 +1091,6 @@
 <celldesigner:speciesIdentity>
 <celldesigner:class>COMPLEX</celldesigner:class>
 <celldesigner:name>DNA_GYRASE</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s36" id="s36" name="[DNA_GYRASE]" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>[DNA_GYRASE]</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -1421,6 +1311,116 @@
 </celldesigner:extension>
 </annotation>
 </species>
+<species metaid="s17" id="s17" name="MG_085_HEXAMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr24</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s19" id="s19" name="MG_127_MONOMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr25</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s21" id="s21" name="MG_236_MONOMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr26</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s23" id="s23" name="MG_203_204_TETRAMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr27</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s25" id="s25" name="ribosome_30S__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>ribosome_30S__inactive</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s26" id="s26" name="ribosome_50S__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>ribosome_50S__inactive</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s36" id="s36" name="DNA_GYRASE__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>DNA_GYRASE__inactive</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s22" id="s22" name="MG_409_DIMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr28</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s20" id="s20" name="MG_205_DIMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr29</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s18" id="s18" name="MG_101_MONOMER__inactive" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr30</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
 </listOfSpecies>
 <listOfReactions>
 <reaction metaid="re21" id="re21" reversible="false">
@@ -1549,9 +1549,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re23" id="re23" reversible="false">
+<reaction metaid="re23" id="re23" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s18" alias="sa5">
@@ -1612,9 +1613,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re24" id="re24" reversible="false">
+<reaction metaid="re24" id="re24" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s17" alias="sa8">
@@ -1738,9 +1740,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re26" id="re26" reversible="false">
+<reaction metaid="re26" id="re26" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s13" alias="sa15">
@@ -1801,9 +1804,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re27" id="re27" reversible="false">
+<reaction metaid="re27" id="re27" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s19" alias="sa6">
@@ -1927,9 +1931,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re29" id="re29" reversible="false">
+<reaction metaid="re29" id="re29" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s22" alias="sa12">
@@ -2053,9 +2058,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re31" id="re31" reversible="false">
+<reaction metaid="re31" id="re31" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s21" alias="sa11">
@@ -2179,9 +2185,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re35" id="re35" reversible="false">
+<reaction metaid="re35" id="re35" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s36" alias="csa8">
@@ -2477,9 +2484,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re39" id="re39" reversible="false">
+<reaction metaid="re39" id="re39" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s25" alias="csa2">
@@ -2711,9 +2719,10 @@
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re41" id="re41" reversible="false">
+<reaction metaid="re41" id="re41" name="activation" reversible="false">
 <annotation>
 <celldesigner:extension>
+<celldesigner:name>activation</celldesigner:name>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s26" alias="csa4">
