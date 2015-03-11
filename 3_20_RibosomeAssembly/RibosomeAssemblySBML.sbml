@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model id="untitled" metaid="untitled">
+    <listOfUnitDefinitions>
+      <unitDefinition id="substance" name="substance" metaid="substance">
+        <listOfUnits>
+          <unit scale="0" exponent="1" metaid="CDMT00004" multiplier="1" kind="mole"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume" name="volume" metaid="volume">
+        <listOfUnits>
+          <unit scale="0" exponent="1" metaid="CDMT00005" multiplier="1" kind="litre"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area" name="area" metaid="area">
+        <listOfUnits>
+          <unit scale="0" exponent="2" metaid="CDMT00030" multiplier="1" kind="metre"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="length" name="length" metaid="length">
+        <listOfUnits>
+          <unit scale="0" exponent="1" metaid="CDMT00031" multiplier="1" kind="metre"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="time" name="time" metaid="time">
+        <listOfUnits>
+          <unit scale="0" exponent="1" metaid="CDMT00032" multiplier="1" kind="second"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="default" metaid="default" units="volume" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="s3" initialAmount="0" name="MG_087_MONOMER" metaid="s3" compartment="default"/>
+      <species id="s4" initialAmount="0" name="MG_088_MONOMER" metaid="s4" compartment="default"/>
+      <species id="s5" initialAmount="0" name="MG_090_MONOMER" metaid="s5" compartment="default"/>
+      <species id="s6" initialAmount="0" name="MG_092_MONOMER" metaid="s6" compartment="default"/>
+      <species id="s7" initialAmount="0" name="MG_150_MONOMER" metaid="s7" compartment="default"/>
+      <species id="s8" initialAmount="0" name="MG_155_MONOMER" metaid="s8" compartment="default"/>
+      <species id="s9" initialAmount="0" name="MG_157_MONOMER" metaid="s9" compartment="default"/>
+      <species id="s10" initialAmount="0" name="MG_160_MONOMER" metaid="s10" compartment="default"/>
+      <species id="s11" initialAmount="0" name="MG_164_MONOMER" metaid="s11" compartment="default"/>
+      <species id="s12" initialAmount="0" name="MG_165_MONOMER" metaid="s12" compartment="default"/>
+      <species id="s13" initialAmount="0" name="MG_168_MONOMER" metaid="s13" compartment="default"/>
+      <species id="s14" initialAmount="0" name="MG_175_MONOMER" metaid="s14" compartment="default"/>
+      <species id="s15" initialAmount="0" name="MG_176_MONOMER" metaid="s15" compartment="default"/>
+      <species id="s16" initialAmount="0" name="MG_311_MONOMER" metaid="s16" compartment="default"/>
+      <species id="s17" initialAmount="0" name="MG_417_MONOMER" metaid="s17" compartment="default"/>
+      <species id="s18" initialAmount="0" name="MG_424_MONOMER" metaid="s18" compartment="default"/>
+      <species id="s19" initialAmount="0" name="MG_446_MONOMER" metaid="s19" compartment="default"/>
+      <species id="s20" initialAmount="0" name="MG_481_MONOMER" metaid="s20" compartment="default"/>
+      <species id="s21" initialAmount="0" name="MG_522_MONOMER" metaid="s21" compartment="default"/>
+      <species id="s22" initialAmount="0" name="MG_070_MONOMER" metaid="s22" compartment="default"/>
+      <species id="s23" initialAmount="0" name="RIBOSOME_30S" metaid="s23" compartment="default"/>
+      <species id="s24" initialAmount="0" name="MGrrnA16S" metaid="s24" compartment="default"/>
+      <species id="s59" initialAmount="0" name="RIBOSOME_50S" metaid="s59" compartment="default"/>
+      <species id="s62" initialAmount="0" name="MG_081_MONOMER" metaid="s62" compartment="default"/>
+      <species id="s63" initialAmount="0" name="MG_082_MONOMER" metaid="s63" compartment="default"/>
+      <species id="s64" initialAmount="0" name="MG_093_MONOMER" metaid="s64" compartment="default"/>
+      <species id="s65" initialAmount="0" name="MG_151_MONOMER" metaid="s65" compartment="default"/>
+      <species id="s66" initialAmount="0" name="MG_152_MONOMER" metaid="s66" compartment="default"/>
+      <species id="s67" initialAmount="0" name="MG_153_MONOMER" metaid="s67" compartment="default"/>
+      <species id="s68" initialAmount="0" name="MG_154_MONOMER" metaid="s68" compartment="default"/>
+      <species id="s69" initialAmount="0" name="MG_156_MONOMER" metaid="s69" compartment="default"/>
+      <species id="s70" initialAmount="0" name="MG_158_MONOMER" metaid="s70" compartment="default"/>
+      <species id="s71" initialAmount="0" name="MG_159_MONOMER" metaid="s71" compartment="default"/>
+      <species id="s72" initialAmount="0" name="MG_161_MONOMER" metaid="s72" compartment="default"/>
+      <species id="s73" initialAmount="0" name="MG_162_MONOMER" metaid="s73" compartment="default"/>
+      <species id="s74" initialAmount="0" name="MG_163_MONOMER" metaid="s74" compartment="default"/>
+      <species id="s75" initialAmount="0" name="MG_166_MONOMER" metaid="s75" compartment="default"/>
+      <species id="s76" initialAmount="0" name="MG_167_MONOMER" metaid="s76" compartment="default"/>
+      <species id="s77" initialAmount="0" name="MG_169_MONOMER" metaid="s77" compartment="default"/>
+      <species id="s78" initialAmount="0" name="MG_174_MONOMER" metaid="s78" compartment="default"/>
+      <species id="s79" initialAmount="0" name="MG_178_MONOMER" metaid="s79" compartment="default"/>
+      <species id="s80" initialAmount="0" name="MG_197_MONOMER" metaid="s80" compartment="default"/>
+      <species id="s81" initialAmount="0" name="MG_198_MONOMER" metaid="s81" compartment="default"/>
+      <species id="s82" initialAmount="0" name="MG_232_MONOMER" metaid="s82" compartment="default"/>
+      <species id="s83" initialAmount="0" name="MG_234_MONOMER" metaid="s83" compartment="default"/>
+      <species id="s84" initialAmount="0" name="MG_257_MONOMER" metaid="s84" compartment="default"/>
+      <species id="s85" initialAmount="0" name="MG_325_MONOMER" metaid="s85" compartment="default"/>
+      <species id="s86" initialAmount="0" name="MG_361_MONOMER" metaid="s86" compartment="default"/>
+      <species id="s87" initialAmount="0" name="MG_362_MONOMER" metaid="s87" compartment="default"/>
+      <species id="s88" initialAmount="0" name="MG_363_MONOMER" metaid="s88" compartment="default"/>
+      <species id="s89" initialAmount="0" name="MG_418_MONOMER" metaid="s89" compartment="default"/>
+      <species id="s90" initialAmount="0" name="MG_426_MONOMER" metaid="s90" compartment="default"/>
+      <species id="s91" initialAmount="0" name="MG_444_MONOMER" metaid="s91" compartment="default"/>
+      <species id="s92" initialAmount="0" name="MG_466_MONOMER" metaid="s92" compartment="default"/>
+      <species id="s93" initialAmount="0" name="MG_473_MONOMER" metaid="s93" compartment="default"/>
+      <species id="s94" initialAmount="0" name="MGrrnA23S" metaid="s94" compartment="default"/>
+      <species id="s129" initialAmount="0" name="MGrrnA5S" metaid="s129" compartment="default"/>
+      <species id="s135" initialAmount="0" name="GTP" metaid="s135" compartment="default"/>
+      <species id="s136" initialAmount="0" name="GDP" metaid="s136" compartment="default"/>
+      <species id="s138" initialAmount="0" name="PI" metaid="s138" compartment="default"/>
+      <species id="s141" initialAmount="0" name="GDP" metaid="s141" compartment="default"/>
+      <species id="s143" initialAmount="0" name="GTP" metaid="s143" compartment="default"/>
+      <species/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="re2" name="re2" metaid="re2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s5" metaid="CDMT00006" stoichiometry="1"/>
+          <speciesReference species="s19" metaid="CDMT00007" stoichiometry="1"/>
+          <speciesReference species="s9" metaid="CDMT00008" stoichiometry="1"/>
+          <speciesReference species="s11" metaid="CDMT00009" stoichiometry="1"/>
+          <speciesReference species="s15" metaid="CDMT00010" stoichiometry="1"/>
+          <speciesReference species="s22" metaid="CDMT00011" stoichiometry="1"/>
+          <speciesReference species="s18" metaid="CDMT00012" stoichiometry="1"/>
+          <speciesReference species="s14" metaid="CDMT00013" stoichiometry="1"/>
+          <speciesReference species="s12" metaid="CDMT00014" stoichiometry="1"/>
+          <speciesReference species="s8" metaid="CDMT00015" stoichiometry="1"/>
+          <speciesReference species="s4" metaid="CDMT00016" stoichiometry="1"/>
+          <speciesReference species="s3" metaid="CDMT00017" stoichiometry="1"/>
+          <speciesReference species="s7" metaid="CDMT00018" stoichiometry="1"/>
+          <speciesReference species="s11" metaid="CDMT00019" stoichiometry="1"/>
+          <speciesReference species="s13" metaid="CDMT00020" stoichiometry="1"/>
+          <speciesReference species="s17" metaid="CDMT00021" stoichiometry="1"/>
+          <speciesReference species="s21" metaid="CDMT00022" stoichiometry="1"/>
+          <speciesReference species="s20" metaid="CDMT00023" stoichiometry="1"/>
+          <speciesReference species="s16" metaid="CDMT00024" stoichiometry="1"/>
+          <speciesReference species="s12" metaid="CDMT00025" stoichiometry="1"/>
+          <speciesReference species="s10" metaid="CDMT00026" stoichiometry="1"/>
+          <speciesReference species="s6" metaid="CDMT00027" stoichiometry="1"/>
+          <speciesReference species="s24" metaid="CDMT00028" stoichiometry="1"/>
+          <speciesReference species="s143" metaid="CDMT00066" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s23" metaid="CDMT00029" stoichiometry="1"/>
+          <speciesReference species="s141" metaid="CDMT00067" stoichiometry="2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="re3" name="re3" metaid="re3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="s64" metaid="CDMT00001" stoichiometry="1"/>
+          <speciesReference species="s89" metaid="CDMT00002" stoichiometry="1"/>
+          <speciesReference species="s69" metaid="CDMT00033" stoichiometry="1"/>
+          <speciesReference species="s74" metaid="CDMT00034" stoichiometry="1"/>
+          <speciesReference species="s79" metaid="CDMT00035" stoichiometry="1"/>
+          <speciesReference species="s84" metaid="CDMT00036" stoichiometry="1"/>
+          <speciesReference species="s93" metaid="CDMT00037" stoichiometry="1"/>
+          <speciesReference species="s88" metaid="CDMT00038" stoichiometry="1"/>
+          <speciesReference species="s83" metaid="CDMT00039" stoichiometry="1"/>
+          <speciesReference species="s78" metaid="CDMT00040" stoichiometry="1"/>
+          <speciesReference species="s73" metaid="CDMT00041" stoichiometry="1"/>
+          <speciesReference species="s68" metaid="CDMT00042" stoichiometry="1"/>
+          <speciesReference species="s63" metaid="CDMT00043" stoichiometry="1"/>
+          <speciesReference species="s92" metaid="CDMT00044" stoichiometry="1"/>
+          <speciesReference species="s87" metaid="CDMT00045" stoichiometry="1"/>
+          <speciesReference species="s82" metaid="CDMT00046" stoichiometry="1"/>
+          <speciesReference species="s77" metaid="CDMT00047" stoichiometry="1"/>
+          <speciesReference species="s72" metaid="CDMT00048" stoichiometry="1"/>
+          <speciesReference species="s67" metaid="CDMT00049" stoichiometry="1"/>
+          <speciesReference species="s62" metaid="CDMT00050" stoichiometry="1"/>
+          <speciesReference species="s66" metaid="CDMT00052" stoichiometry="1"/>
+          <speciesReference species="s71" metaid="CDMT00053" stoichiometry="1"/>
+          <speciesReference species="s76" metaid="CDMT00054" stoichiometry="1"/>
+          <speciesReference species="s81" metaid="CDMT00055" stoichiometry="1"/>
+          <speciesReference species="s86" metaid="CDMT00056" stoichiometry="1"/>
+          <speciesReference species="s91" metaid="CDMT00057" stoichiometry="1"/>
+          <speciesReference species="s90" metaid="CDMT00058" stoichiometry="1"/>
+          <speciesReference species="s85" metaid="CDMT00059" stoichiometry="1"/>
+          <speciesReference species="s80" metaid="CDMT00060" stoichiometry="1"/>
+          <speciesReference species="s75" metaid="CDMT00061" stoichiometry="1"/>
+          <speciesReference species="s70" metaid="CDMT00062" stoichiometry="1"/>
+          <speciesReference species="s65" metaid="CDMT00063" stoichiometry="1"/>
+          <speciesReference species="s94" metaid="CDMT00064" stoichiometry="1"/>
+          <speciesReference species="s129" metaid="CDMT00065" stoichiometry="1"/>
+          <speciesReference species="s135" metaid="CDMT00069" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="s59" metaid="CDMT00003" stoichiometry="1"/>
+          <speciesReference species="s136" metaid="CDMT00070" stoichiometry="3"/>
+          <speciesReference species="s138" metaid="CDMT00071" stoichiometry="3"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+      <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1">
+      <layout:layout/>
+    </layout:listOfLayouts>
+  </model>
+</sbml>

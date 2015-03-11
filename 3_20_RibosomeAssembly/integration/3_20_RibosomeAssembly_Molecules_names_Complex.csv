@@ -1,0 +1,4 @@
+Protein Complex (201),Description,read only,Read and write,write only
+RIBOSOME_30S,30S ribosomal subunit,,X,
+RIBOSOME_30S_IF3,30S ribosomal subunit - translation initiation factor IF-3 complex,,X,
+RIBOSOME_50S,50S ribosomal subunit,,X,
