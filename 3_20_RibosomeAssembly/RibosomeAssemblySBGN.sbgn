@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph id="pnre2" orientation="horizontal" class="process">
+            <bbox y="305.8" x="669.7" h="10.0" w="10.0"/>
+            <port y="310.8" x="669.7" id="pnre2.L"/>
+            <port y="310.8" x="679.7" id="pnre2.R"/>
+        </glyph>
+        <glyph id="pnre3" orientation="horizontal" class="process">
+            <bbox y="838.2" x="687.0" h="10.0" w="10.0"/>
+            <port y="843.2" x="687.0" id="pnre3.L"/>
+            <port y="843.2" x="697.0" id="pnre3.R"/>
+        </glyph>
+        <glyph id="sa3" class="macromolecule">
+            <label text="MG_087_MONOMER"/>
+            <bbox y="35.0" x="173.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa4" class="macromolecule">
+            <label text="MG_088_MONOMER"/>
+            <bbox y="35.0" x="311.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa5" class="macromolecule">
+            <label text="MG_090_MONOMER"/>
+            <bbox y="35.0" x="449.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa6" class="macromolecule">
+            <label text="MG_092_MONOMER"/>
+            <bbox y="127.0" x="35.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa7" class="macromolecule">
+            <label text="MG_150_MONOMER"/>
+            <bbox y="127.0" x="173.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa8" class="macromolecule">
+            <label text="MG_155_MONOMER"/>
+            <bbox y="127.0" x="311.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa9" class="macromolecule">
+            <label text="MG_157_MONOMER"/>
+            <bbox y="127.0" x="449.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa10" class="macromolecule">
+            <label text="MG_160_MONOMER"/>
+            <bbox y="219.0" x="35.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa11" class="macromolecule">
+            <label text="MG_164_MONOMER"/>
+            <clone/>
+            <bbox y="219.0" x="173.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa12" class="macromolecule">
+            <label text="MG_165_MONOMER"/>
+            <clone/>
+            <bbox y="219.0" x="311.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa13" class="macromolecule">
+            <label text="MG_164_MONOMER"/>
+            <clone/>
+            <bbox y="219.0" x="449.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa14" class="macromolecule">
+            <label text="MG_165_MONOMER"/>
+            <clone/>
+            <bbox y="311.0" x="35.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa15" class="macromolecule">
+            <label text="MG_168_MONOMER"/>
+            <bbox y="311.0" x="173.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa16" class="macromolecule">
+            <label text="MG_175_MONOMER"/>
+            <bbox y="311.0" x="311.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa17" class="macromolecule">
+            <label text="MG_176_MONOMER"/>
+            <bbox y="311.0" x="449.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa18" class="macromolecule">
+            <label text="MG_311_MONOMER"/>
+            <bbox y="403.0" x="35.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa19" class="macromolecule">
+            <label text="MG_417_MONOMER"/>
+            <bbox y="403.0" x="173.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa20" class="macromolecule">
+            <label text="MG_424_MONOMER"/>
+            <bbox y="403.0" x="311.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa21" class="macromolecule">
+            <label text="MG_446_MONOMER"/>
+            <bbox y="403.0" x="449.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa22" class="macromolecule">
+            <label text="MG_481_MONOMER"/>
+            <bbox y="495.0" x="35.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa23" class="macromolecule">
+            <label text="MG_522_MONOMER"/>
+            <bbox y="495.0" x="173.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa25" class="macromolecule">
+            <label text="MG_070_MONOMER"/>
+            <bbox y="495.0" x="311.0" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa26" class="nucleic acid feature">
+            <label text="MGrrnA16S"/>
+            <bbox y="43.5" x="35.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa27" class="macromolecule">
+            <label text="MG_446_MONOMER"/>
+            <bbox y="414.7197" x="1240.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa28" class="macromolecule">
+            <label text="MG_070_MONOMER"/>
+            <bbox y="506.7197" x="1102.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa29" class="macromolecule">
+            <label text="MG_522_MONOMER"/>
+            <bbox y="506.7197" x="964.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa30" class="macromolecule">
+            <label text="MG_424_MONOMER"/>
+            <bbox y="414.7197" x="1102.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa31" class="macromolecule">
+            <label text="MG_417_MONOMER"/>
+            <bbox y="414.7197" x="964.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa32" class="macromolecule">
+            <label text="MG_176_MONOMER"/>
+            <bbox y="322.7197" x="1240.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa33" class="macromolecule">
+            <label text="MG_175_MONOMER"/>
+            <bbox y="322.7197" x="1102.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa34" class="macromolecule">
+            <label text="MG_168_MONOMER"/>
+            <bbox y="322.7197" x="964.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa35" class="macromolecule">
+            <label text="MG_164_MONOMER"/>
+            <clone/>
+            <bbox y="230.7197" x="1240.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa36" class="macromolecule">
+            <label text="MG_165_MONOMER"/>
+            <clone/>
+            <bbox y="230.7197" x="1102.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa37" class="macromolecule">
+            <label text="MG_164_MONOMER"/>
+            <clone/>
+            <bbox y="230.7197" x="964.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa38" class="macromolecule">
+            <label text="MG_481_MONOMER"/>
+            <bbox y="506.7197" x="826.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa39" class="macromolecule">
+            <label text="MG_311_MONOMER"/>
+            <bbox y="414.7197" x="826.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa40" class="macromolecule">
+            <label text="MG_165_MONOMER"/>
+            <clone/>
+            <bbox y="322.7197" x="826.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa41" class="macromolecule">
+            <label text="MG_160_MONOMER"/>
+            <bbox y="230.7197" x="826.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa42" class="macromolecule">
+            <label text="MG_157_MONOMER"/>
+            <bbox y="138.7197" x="1240.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa43" class="macromolecule">
+            <label text="MG_155_MONOMER"/>
+            <bbox y="138.7197" x="1102.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa44" class="macromolecule">
+            <label text="MG_150_MONOMER"/>
+            <bbox y="138.7197" x="964.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa45" class="macromolecule">
+            <label text="MG_092_MONOMER"/>
+            <bbox y="138.7197" x="826.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa46" class="nucleic acid feature">
+            <label text="MGrrnA16S"/>
+            <bbox y="55.219696" x="826.3333" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa47" class="macromolecule">
+            <label text="MG_090_MONOMER"/>
+            <bbox y="46.719696" x="1240.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa48" class="macromolecule">
+            <label text="MG_088_MONOMER"/>
+            <bbox y="46.719696" x="1102.3334" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa49" class="macromolecule">
+            <label text="MG_087_MONOMER"/>
+            <bbox y="46.719696" x="964.3333" h="40.0" w="80.0"/>
+        </glyph>
+        <glyph id="sa62" class="macromolecule">
+            <label text="MG_081_MONOMER"/>
+            <bbox y="702.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa63" class="macromolecule">
+            <label text="MG_082_MONOMER"/>
+            <bbox y="702.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa64" class="macromolecule">
+            <label text="MG_093_MONOMER"/>
+            <bbox y="702.0" x="507.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa65" class="macromolecule">
+            <label text="MG_151_MONOMER"/>
+            <bbox y="742.0" x="27.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa66" class="macromolecule">
+            <label text="MG_152_MONOMER"/>
+            <bbox y="742.0" x="147.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa67" class="macromolecule">
+            <label text="MG_153_MONOMER"/>
+            <bbox y="742.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa68" class="macromolecule">
+            <label text="MG_154_MONOMER"/>
+            <bbox y="742.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa69" class="macromolecule">
+            <label text="MG_156_MONOMER"/>
+            <bbox y="742.0" x="507.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa70" class="macromolecule">
+            <label text="MG_158_MONOMER"/>
+            <bbox y="782.0" x="27.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa71" class="macromolecule">
+            <label text="MG_159_MONOMER"/>
+            <bbox y="782.0" x="147.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa72" class="macromolecule">
+            <label text="MG_161_MONOMER"/>
+            <bbox y="782.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa73" class="macromolecule">
+            <label text="MG_162_MONOMER"/>
+            <bbox y="782.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa74" class="macromolecule">
+            <label text="MG_163_MONOMER"/>
+            <bbox y="782.0" x="507.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa75" class="macromolecule">
+            <label text="MG_166_MONOMER"/>
+            <bbox y="822.0" x="27.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa76" class="macromolecule">
+            <label text="MG_167_MONOMER"/>
+            <bbox y="822.0" x="147.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa77" class="macromolecule">
+            <label text="MG_169_MONOMER"/>
+            <bbox y="822.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa78" class="macromolecule">
+            <label text="MG_174_MONOMER"/>
+            <bbox y="822.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa79" class="macromolecule">
+            <label text="MG_178_MONOMER"/>
+            <bbox y="822.0" x="507.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa80" class="macromolecule">
+            <label text="MG_197_MONOMER"/>
+            <bbox y="862.0" x="27.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa81" class="macromolecule">
+            <label text="MG_198_MONOMER"/>
+            <bbox y="862.0" x="147.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa82" class="macromolecule">
+            <label text="MG_232_MONOMER"/>
+            <bbox y="862.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa83" class="macromolecule">
+            <label text="MG_234_MONOMER"/>
+            <bbox y="862.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa84" class="macromolecule">
+            <label text="MG_257_MONOMER"/>
+            <bbox y="862.0" x="507.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa85" class="macromolecule">
+            <label text="MG_325_MONOMER"/>
+            <bbox y="902.0" x="27.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa86" class="macromolecule">
+            <label text="MG_361_MONOMER"/>
+            <bbox y="902.0" x="147.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa87" class="macromolecule">
+            <label text="MG_362_MONOMER"/>
+            <bbox y="902.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa88" class="macromolecule">
+            <label text="MG_363_MONOMER"/>
+            <bbox y="902.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa89" class="macromolecule">
+            <label text="MG_418_MONOMER"/>
+            <bbox y="902.0" x="507.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa90" class="macromolecule">
+            <label text="MG_426_MONOMER"/>
+            <bbox y="942.0" x="27.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa91" class="macromolecule">
+            <label text="MG_444_MONOMER"/>
+            <bbox y="942.0" x="147.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa92" class="macromolecule">
+            <label text="MG_466_MONOMER"/>
+            <bbox y="942.0" x="267.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa93" class="macromolecule">
+            <label text="MG_473_MONOMER"/>
+            <bbox y="942.0" x="387.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa94" class="nucleic acid feature">
+            <label text="MGrrnA23S"/>
+            <bbox y="703.5" x="31.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa95" class="macromolecule">
+            <label text="MG_444_MONOMER"/>
+            <bbox y="940.0" x="936.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa96" class="macromolecule">
+            <label text="MG_426_MONOMER"/>
+            <bbox y="940.0" x="816.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa97" class="macromolecule">
+            <label text="MG_361_MONOMER"/>
+            <bbox y="900.0" x="936.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa98" class="macromolecule">
+            <label text="MG_325_MONOMER"/>
+            <bbox y="900.0" x="816.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa99" class="macromolecule">
+            <label text="MG_198_MONOMER"/>
+            <bbox y="860.0" x="936.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa100" class="macromolecule">
+            <label text="MG_197_MONOMER"/>
+            <bbox y="860.0" x="816.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa101" class="macromolecule">
+            <label text="MG_167_MONOMER"/>
+            <bbox y="820.0" x="936.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa102" class="macromolecule">
+            <label text="MG_166_MONOMER"/>
+            <bbox y="820.0" x="816.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa103" class="macromolecule">
+            <label text="MG_159_MONOMER"/>
+            <bbox y="780.0" x="936.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa104" class="macromolecule">
+            <label text="MG_158_MONOMER"/>
+            <bbox y="780.0" x="816.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa105" class="nucleic acid feature">
+            <label text="MGrrnA23S"/>
+            <bbox y="701.5" x="820.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa106" class="macromolecule">
+            <label text="MG_466_MONOMER"/>
+            <bbox y="940.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa107" class="macromolecule">
+            <label text="MG_362_MONOMER"/>
+            <bbox y="900.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa108" class="macromolecule">
+            <label text="MG_232_MONOMER"/>
+            <bbox y="860.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa109" class="macromolecule">
+            <label text="MG_169_MONOMER"/>
+            <bbox y="820.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa110" class="macromolecule">
+            <label text="MG_161_MONOMER"/>
+            <bbox y="780.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa111" class="macromolecule">
+            <label text="MG_153_MONOMER"/>
+            <bbox y="740.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa112" class="macromolecule">
+            <label text="MG_152_MONOMER"/>
+            <bbox y="740.0" x="936.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa113" class="macromolecule">
+            <label text="MG_151_MONOMER"/>
+            <bbox y="740.0" x="816.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa114" class="macromolecule">
+            <label text="MG_081_MONOMER"/>
+            <bbox y="700.0" x="1056.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa116" class="macromolecule">
+            <label text="MG_473_MONOMER"/>
+            <bbox y="940.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa117" class="macromolecule">
+            <label text="MG_363_MONOMER"/>
+            <bbox y="900.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa118" class="macromolecule">
+            <label text="MG_234_MONOMER"/>
+            <bbox y="860.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa119" class="macromolecule">
+            <label text="MG_174_MONOMER"/>
+            <bbox y="820.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa120" class="macromolecule">
+            <label text="MG_162_MONOMER"/>
+            <bbox y="780.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa121" class="macromolecule">
+            <label text="MG_154_MONOMER"/>
+            <bbox y="740.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa122" class="macromolecule">
+            <label text="MG_082_MONOMER"/>
+            <bbox y="700.0" x="1176.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa123" class="macromolecule">
+            <label text="MG_418_MONOMER"/>
+            <bbox y="900.0" x="1296.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa124" class="macromolecule">
+            <label text="MG_257_MONOMER"/>
+            <bbox y="860.0" x="1296.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa125" class="macromolecule">
+            <label text="MG_178_MONOMER"/>
+            <bbox y="820.0" x="1296.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa126" class="macromolecule">
+            <label text="MG_163_MONOMER"/>
+            <bbox y="780.0" x="1296.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa127" class="macromolecule">
+            <label text="MG_156_MONOMER"/>
+            <bbox y="740.0" x="1296.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa128" class="macromolecule">
+            <label text="MG_093_MONOMER"/>
+            <bbox y="700.0" x="1296.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa129" class="nucleic acid feature">
+            <label text="MGrrnA5S"/>
+            <bbox y="701.5" x="148.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa164" class="nucleic acid feature">
+            <label text="MGrrnA5S"/>
+            <bbox y="699.0" x="934.0" h="25.0" w="90.0"/>
+        </glyph>
+        <glyph id="sa170" class="simple chemical">
+            <label text="GTP"/>
+            <bbox y="633.0" x="534.0" h="25.0" w="70.0"/>
+        </glyph>
+        <glyph id="sa171" class="simple chemical">
+            <label text="GDP"/>
+            <bbox y="666.0" x="645.0" h="25.0" w="70.0"/>
+        </glyph>
+        <glyph id="sa172" class="simple chemical">
+            <label text="PI"/>
+            <clone/>
+            <bbox y="713.5" x="624.0" h="25.0" w="70.0"/>
+        </glyph>
+        <glyph id="sa173" class="simple chemical">
+            <label text="PI"/>
+            <clone/>
+            <bbox y="521.25" x="638.25" h="25.0" w="70.0"/>
+        </glyph>
+        <glyph id="sa174" class="simple chemical">
+            <label text="GDP"/>
+            <bbox y="480.75" x="605.25" h="25.0" w="70.0"/>
+        </glyph>
+        <glyph id="sa175" class="simple chemical">
+            <label text="GTP"/>
+            <bbox y="491.75" x="513.25" h="25.0" w="70.0"/>
+        </glyph>
+        <glyph id="csa1" class="complex">
+            <label text="RIBOSOME_30S"/>
+            <bbox y="30.0" x="718.0" h="565.0" w="670.0"/>
+        </glyph>
+        <glyph id="csa2" class="complex">
+            <label text="RIBOSOME_50S"/>
+            <bbox y="649.0" x="722.0" h="385.0" w="796.0"/>
+        </glyph>
+        <arc target="pnre2.L" source="sa5" id="re2-react0" class="consumption">
+            <start y="55.0" x="529.0"/>
+            <next y="309.5" x="631.75"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="csa1" source="pnre2.R" id="re2-product0" class="production">
+            <start y="310.8" x="679.7"/>
+            <end y="312.5" x="718.0"/>
+        </arc>
+        <arc target="pnre2.L" source="sa21" id="re2-react1" class="consumption">
+            <start y="423.0" x="529.0"/>
+            <next y="309.5" x="631.75"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa9" id="re2-addReact2" class="consumption">
+            <start y="147.0" x="529.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa13" id="re2-addReact3" class="consumption">
+            <start y="239.0" x="529.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa17" id="re2-addReact4" class="consumption">
+            <start y="331.0" x="529.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa25" id="re2-addReact5" class="consumption">
+            <start y="515.0" x="391.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa20" id="re2-addReact6" class="consumption">
+            <start y="423.0" x="391.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa16" id="re2-addReact7" class="consumption">
+            <start y="331.0" x="391.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa12" id="re2-addReact8" class="consumption">
+            <start y="239.0" x="391.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa8" id="re2-addReact9" class="consumption">
+            <start y="147.0" x="391.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa4" id="re2-addReact10" class="consumption">
+            <start y="45.0" x="391.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa3" id="re2-addReact11" class="consumption">
+            <start y="55.0" x="253.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa7" id="re2-addReact12" class="consumption">
+            <start y="147.0" x="253.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa11" id="re2-addReact13" class="consumption">
+            <start y="229.0" x="253.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa15" id="re2-addReact14" class="consumption">
+            <start y="341.0" x="253.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa19" id="re2-addReact15" class="consumption">
+            <start y="423.0" x="253.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa23" id="re2-addReact16" class="consumption">
+            <start y="515.0" x="253.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa22" id="re2-addReact17" class="consumption">
+            <start y="505.0" x="115.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa18" id="re2-addReact18" class="consumption">
+            <start y="423.0" x="115.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa14" id="re2-addReact19" class="consumption">
+            <start y="321.0" x="115.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa10" id="re2-addReact20" class="consumption">
+            <start y="239.0" x="115.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa6" id="re2-addReact21" class="consumption">
+            <start y="147.0" x="115.0"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre2.L" source="sa26" id="re2-addReact22" class="consumption">
+            <start y="55.5" x="112.5"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="pnre3.L" source="sa64" id="re3-react0" class="consumption">
+            <start y="714.5" x="597.0"/>
+            <next y="845.5" x="662.75"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="csa2" source="pnre3.R" id="re3-product0" class="production">
+            <start y="843.2" x="697.0"/>
+            <end y="841.5" x="722.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa89" id="re3-react1" class="consumption">
+            <start y="914.5" x="597.0"/>
+            <next y="845.5" x="662.75"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa69" id="re3-addReact2" class="consumption">
+            <start y="754.5" x="597.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa74" id="re3-addReact3" class="consumption">
+            <start y="800.75" x="597.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa79" id="re3-addReact4" class="consumption">
+            <start y="828.25" x="597.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa84" id="re3-addReact5" class="consumption">
+            <start y="880.75" x="597.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa93" id="re3-addReact6" class="consumption">
+            <start y="954.5" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa88" id="re3-addReact7" class="consumption">
+            <start y="908.25" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa83" id="re3-addReact8" class="consumption">
+            <start y="868.25" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa78" id="re3-addReact9" class="consumption">
+            <start y="834.5" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa73" id="re3-addReact10" class="consumption">
+            <start y="800.75" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa68" id="re3-addReact11" class="consumption">
+            <start y="754.5" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa63" id="re3-addReact12" class="consumption">
+            <start y="720.75" x="477.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa92" id="re3-addReact13" class="consumption">
+            <start y="954.5" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa87" id="re3-addReact14" class="consumption">
+            <start y="908.25" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa82" id="re3-addReact15" class="consumption">
+            <start y="880.75" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa77" id="re3-addReact16" class="consumption">
+            <start y="840.75" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa72" id="re3-addReact17" class="consumption">
+            <start y="794.5" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa67" id="re3-addReact18" class="consumption">
+            <start y="748.25" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa62" id="re3-addReact19" class="consumption">
+            <start y="714.5" x="357.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa66" id="re3-addReact20" class="consumption">
+            <start y="754.5" x="237.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa71" id="re3-addReact21" class="consumption">
+            <start y="794.5" x="237.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa76" id="re3-addReact22" class="consumption">
+            <start y="840.75" x="237.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa81" id="re3-addReact23" class="consumption">
+            <start y="880.75" x="237.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa86" id="re3-addReact24" class="consumption">
+            <start y="914.5" x="237.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa91" id="re3-addReact25" class="consumption">
+            <start y="954.5" x="237.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa90" id="re3-addReact26" class="consumption">
+            <start y="954.5" x="117.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa85" id="re3-addReact27" class="consumption">
+            <start y="914.5" x="117.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa80" id="re3-addReact28" class="consumption">
+            <start y="874.5" x="117.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa75" id="re3-addReact29" class="consumption">
+            <start y="834.5" x="117.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa70" id="re3-addReact30" class="consumption">
+            <start y="794.5" x="117.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa65" id="re3-addReact31" class="consumption">
+            <start y="754.5" x="117.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa94" id="re3-addReact32" class="consumption">
+            <start y="715.5" x="108.5"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa129" id="re3-addReact33" class="consumption">
+            <start y="713.5" x="225.5"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="pnre3.L" source="sa170" id="re3-addReact34" class="consumption">
+            <start y="658.0" x="569.0"/>
+            <end y="843.2" x="687.0"/>
+        </arc>
+        <arc target="sa171" source="pnre3.R" id="re3-addProduct1" class="production">
+            <start y="843.2" x="697.0"/>
+            <end y="691.0" x="680.0"/>
+        </arc>
+        <arc target="sa172" source="pnre3.R" id="re3-addProduct2" class="production">
+            <start y="843.2" x="697.0"/>
+            <end y="738.5" x="659.0"/>
+        </arc>
+        <arc target="pnre2.L" source="sa175" id="re2-addReact23" class="consumption">
+            <start y="491.75" x="548.25"/>
+            <end y="310.8" x="669.7"/>
+        </arc>
+        <arc target="sa174" source="pnre2.R" id="re2-addProduct1" class="production">
+            <start y="310.8" x="679.7"/>
+            <end y="480.75" x="640.25"/>
+        </arc>
+        <arc target="sa173" source="pnre2.R" id="re2-addProduct2" class="production">
+            <start y="310.8" x="679.7"/>
+            <end y="521.25" x="673.25"/>
+        </arc>
+    </map>
+</sbgn>
