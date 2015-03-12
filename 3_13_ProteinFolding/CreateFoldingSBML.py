@@ -4,7 +4,7 @@ MID = 0
 HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created by COPASI version 4.15 (Build 95) on 2015-03-12 11:14 with libSBML version 5.11.1. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="COPASI0" id="New_Model" name="New Model">
+  <model metaid="COPASI0" id="ProteinFolding" name="ProteinFolding">
     <annotation>
       <COPASI xmlns="http://www.copasi.org/static/sbml">
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -122,19 +122,6 @@ ASSIGNMENTS = """
 
 REACTIONS = """
       <reaction metaid="COPASI7" id="R1" name="R1" reversible="false">
-        <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI7">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2015-03-12T11:04:28Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
         <listOfReactants>
           <speciesReference species="A_UNFOLDED" stoichiometry="1"/>
           <speciesReference species="prosthetic" stoichiometry="2"/>
