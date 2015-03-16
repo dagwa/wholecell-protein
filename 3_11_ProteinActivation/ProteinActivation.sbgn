@@ -287,6 +287,10 @@
             <start y="108.1" x="275.8"/>
             <end y="108.0" x="205.0"/>
         </arc>
+        <arc target="pnre21" source="sa28" id="re21-mod0" class="inhibition">
+            <start y="61.0" x="229.0"/>
+            <end y="113.126724" x="275.73175"/>
+        </arc>
         <arc target="pnre22.R" source="sa18" id="re22-react0" class="consumption">
             <start y="107.75" x="900.5"/>
             <end y="107.0" x="808.8"/>
@@ -294,6 +298,10 @@
         <arc target="sa5" source="pnre22.L" id="re22-product0" class="production">
             <start y="107.0" x="798.8"/>
             <end y="106.25" x="707.0"/>
+        </arc>
+        <arc target="pnre22" source="sa29" id="re22-mod0" class="modulation">
+            <start y="36.919037" x="705.17096"/>
+            <end y="111.971016" x="798.7013"/>
         </arc>
         <arc target="pnre23.L" source="sa5" id="re23-react0" class="consumption">
             <start y="92.75" x="707.0"/>
@@ -303,6 +311,10 @@
             <start y="92.8" x="808.8"/>
             <end y="92.75" x="900.5"/>
         </arc>
+        <arc target="pnre23" source="sa29" id="re23-mod0" class="inhibition">
+            <start y="44.05635" x="826.67944"/>
+            <end y="87.74" x="808.76"/>
+        </arc>
         <arc target="pnre24.L" source="sa8" id="re24-react0" class="consumption">
             <start y="93.0" x="205.0"/>
             <end y="93.1" x="275.8"/>
@@ -310,6 +322,10 @@
         <arc target="sa19" source="pnre24.R" id="re24-product0" class="production">
             <start y="93.1" x="285.8"/>
             <end y="93.25" x="356.5"/>
+        </arc>
+        <arc target="pnre24" source="sa28" id="re24-mod0" class="modulation">
+            <start y="60.0" x="288.0"/>
+            <end y="88.123276" x="285.76825"/>
         </arc>
         <arc target="pnre25.L" source="sa10" id="re25-react0" class="consumption">
             <start y="263.25" x="677.0"/>
@@ -319,6 +335,10 @@
             <start y="263.9" x="790.3"/>
             <end y="264.5" x="893.5"/>
         </arc>
+        <arc target="pnre25" source="sa23" id="re25-mod0" class="modulation">
+            <start y="204.15254" x="816.20886"/>
+            <end y="258.894" x="790.2888"/>
+        </arc>
         <arc target="pnre26.R" source="sa15" id="re26-react0" class="consumption">
             <start y="278.0" x="893.5"/>
             <end y="277.4" x="790.3"/>
@@ -327,9 +347,9 @@
             <start y="277.4" x="780.3"/>
             <end y="276.75" x="677.0"/>
         </arc>
-        <arc target="pnre25" source="sa23" id="re25-mod0" class="modulation">
-            <start y="204.15254" x="816.20886"/>
-            <end y="258.894" x="790.2888"/>
+        <arc target="pnre26" source="sa23" id="re26-mod0" class="inhibition">
+            <start y="204.15254" x="744.79114"/>
+            <end y="272.33615" x="780.269"/>
         </arc>
         <arc target="pnre27.L" source="sa6" id="re27-react0" class="consumption">
             <start y="262.0" x="206.5"/>
@@ -339,6 +359,10 @@
             <start y="262.1" x="282.3"/>
             <end y="262.25" x="348.0"/>
         </arc>
+        <arc target="pnre27" source="sa27" id="re27-mod0" class="modulation">
+            <start y="192.91904" x="316.329"/>
+            <end y="257.12387" x="282.26883"/>
+        </arc>
         <arc target="pnre28.R" source="sa17" id="re28-react0" class="consumption">
             <start y="278.25" x="348.0"/>
             <end y="278.1" x="282.3"/>
@@ -347,13 +371,9 @@
             <start y="278.1" x="272.3"/>
             <end y="278.0" x="206.5"/>
         </arc>
-        <arc target="pnre27" source="sa27" id="re27-mod0" class="modulation">
-            <start y="192.91904" x="316.329"/>
-            <end y="257.12387" x="282.26883"/>
-        </arc>
-        <arc target="pnre22" source="sa29" id="re22-mod0" class="modulation">
-            <start y="36.919037" x="705.17096"/>
-            <end y="111.971016" x="798.7013"/>
+        <arc target="pnre28" source="sa27" id="re28-mod0" class="inhibition">
+            <start y="200.05635" x="194.82054"/>
+            <end y="273.10617" x="272.24887"/>
         </arc>
         <arc target="pnre29.L" source="sa12" id="re29-react0" class="consumption">
             <start y="415.75" x="675.0"/>
@@ -363,6 +383,10 @@
             <start y="415.6" x="775.3"/>
             <end y="415.5" x="865.5"/>
         </arc>
+        <arc target="pnre29" source="sa30" id="re29-mod0" class="modulation">
+            <start y="356.2277" x="779.8634"/>
+            <end y="410.60843" x="775.2534"/>
+        </arc>
         <arc target="pnre30.R" source="sa13" id="re30-react0" class="consumption">
             <start y="429.0" x="865.5"/>
             <end y="428.6" x="775.3"/>
@@ -371,9 +395,9 @@
             <start y="428.6" x="765.3"/>
             <end y="428.25" x="675.0"/>
         </arc>
-        <arc target="pnre29" source="sa30" id="re29-mod0" class="modulation">
-            <start y="356.2277" x="779.8634"/>
-            <end y="410.60843" x="775.2534"/>
+        <arc target="pnre30" source="sa30" id="re30-mod0" class="inhibition">
+            <start y="356.2277" x="740.1366"/>
+            <end y="433.61523" x="765.22034"/>
         </arc>
         <arc target="pnre31.L" source="sa11" id="re31-react0" class="consumption">
             <start y="415.25" x="208.0"/>
@@ -383,6 +407,10 @@
             <start y="415.4" x="276.8"/>
             <end y="415.5" x="335.5"/>
         </arc>
+        <arc target="pnre31" source="sa31" id="re31-mod0" class="modulation">
+            <start y="360.91904" x="317.329"/>
+            <end y="410.37485" x="276.7698"/>
+        </arc>
         <arc target="pnre32.R" source="sa14" id="re32-react0" class="consumption">
             <start y="429.0" x="335.5"/>
             <end y="428.9" x="276.8"/>
@@ -391,9 +419,9 @@
             <start y="428.9" x="266.8"/>
             <end y="428.75" x="208.0"/>
         </arc>
-        <arc target="pnre31" source="sa31" id="re31-mod0" class="modulation">
-            <start y="360.91904" x="317.329"/>
-            <end y="410.37485" x="276.7698"/>
+        <arc target="pnre32" source="sa31" id="re32-mod0" class="inhibition">
+            <start y="368.05634" x="195.82054"/>
+            <end y="423.8552" x="266.74985"/>
         </arc>
         <arc target="pnre35.L" source="csa8" id="re35-react0" class="consumption">
             <start y="631.5" x="693.0"/>
@@ -402,82 +430,6 @@
         <arc target="csa7" source="pnre35.R" id="re35-product0" class="production">
             <start y="631.1" x="797.5"/>
             <end y="630.75" x="892.0"/>
-        </arc>
-        <arc target="pnre36.R" source="csa7" id="re36-react0" class="consumption">
-            <start y="658.25" x="892.0"/>
-            <end y="659.4" x="797.5"/>
-        </arc>
-        <arc target="csa8" source="pnre36.L" id="re36-product0" class="production">
-            <start y="659.4" x="787.5"/>
-            <end y="660.5" x="693.0"/>
-        </arc>
-        <arc target="pnre38.R" source="sa16" id="re38-react0" class="consumption">
-            <start y="662.0" x="378.5"/>
-            <end y="660.8" x="304.3"/>
-        </arc>
-        <arc target="sa9" source="pnre38.L" id="re38-product0" class="production">
-            <start y="660.8" x="294.3"/>
-            <end y="659.5" x="220.0"/>
-        </arc>
-        <arc target="pnre39.L" source="csa2" id="re39-react0" class="consumption">
-            <start y="886.75" x="162.0"/>
-            <end y="886.5" x="263.5"/>
-        </arc>
-        <arc target="csa6" source="pnre39.R" id="re39-product0" class="production">
-            <start y="886.5" x="273.5"/>
-            <end y="886.25" x="375.0"/>
-        </arc>
-        <arc target="pnre40.R" source="csa6" id="re40-react0" class="consumption">
-            <start y="926.75" x="375.0"/>
-            <end y="926.5" x="273.5"/>
-        </arc>
-        <arc target="csa2" source="pnre40.L" id="re40-product0" class="production">
-            <start y="926.5" x="263.5"/>
-            <end y="926.25" x="162.0"/>
-        </arc>
-        <arc target="pnre41.L" source="csa4" id="re41-react0" class="consumption">
-            <start y="886.25" x="667.0"/>
-            <end y="886.1" x="784.5"/>
-        </arc>
-        <arc target="csa5" source="pnre41.R" id="re41-product0" class="production">
-            <start y="886.1" x="794.5"/>
-            <end y="886.0" x="912.0"/>
-        </arc>
-        <arc target="pnre42.R" source="csa5" id="re42-react0" class="consumption">
-            <start y="926.0" x="912.0"/>
-            <end y="926.4" x="794.5"/>
-        </arc>
-        <arc target="csa4" source="pnre42.L" id="re42-product0" class="production">
-            <start y="926.4" x="784.5"/>
-            <end y="926.75" x="667.0"/>
-        </arc>
-        <arc target="pnre38" source="sa32" id="re38-mod0" class="modulation">
-            <start y="564.0" x="103.0"/>
-            <end y="665.68036" x="294.16162"/>
-        </arc>
-        <arc target="pnre38" source="sa33" id="re38-mod1" class="modulation">
-            <start y="518.5" x="210.5"/>
-            <end y="655.6616" x="294.31964"/>
-        </arc>
-        <arc target="pnre38" source="sa34" id="re38-mod2" class="modulation">
-            <start y="533.5" x="382.5"/>
-            <end y="655.81964" x="304.33838"/>
-        </arc>
-        <arc target="pnre45.L" source="sa9" id="re45-react0" class="consumption">
-            <start y="629.5" x="220.0"/>
-            <end y="630.0" x="294.3"/>
-        </arc>
-        <arc target="sa16" source="pnre45.R" id="re45-product0" class="production">
-            <start y="630.0" x="304.3"/>
-            <end y="630.5" x="378.5"/>
-        </arc>
-        <arc target="pnre45" source="sa34" id="re45-mod0" class="inhibition">
-            <start y="533.5" x="337.5"/>
-            <end y="625.0217" x="304.2915"/>
-        </arc>
-        <arc target="pnre45" source="sa33" id="re45-mod1" class="inhibition">
-            <start y="518.5" x="255.5"/>
-            <end y="624.9901" x="299.28162"/>
         </arc>
         <arc target="pnre35" source="sa36" id="re35-mod0" class="inhibition">
             <start y="579.25" x="703.0"/>
@@ -491,6 +443,14 @@
             <start y="566.91724" x="848.35785"/>
             <end y="626.0961" x="797.4911"/>
         </arc>
+        <arc target="pnre36.R" source="csa7" id="re36-react0" class="consumption">
+            <start y="658.25" x="892.0"/>
+            <end y="659.4" x="797.5"/>
+        </arc>
+        <arc target="csa8" source="pnre36.L" id="re36-product0" class="production">
+            <start y="659.4" x="787.5"/>
+            <end y="660.5" x="693.0"/>
+        </arc>
         <arc target="pnre36" source="sa36" id="re36-mod0" class="modulation">
             <start y="579.25" x="688.0"/>
             <end y="664.44135" x="787.54694"/>
@@ -502,6 +462,34 @@
         <arc target="pnre36" source="sa37" id="re36-mod2" class="modulation">
             <start y="571.75" x="877.5"/>
             <end y="664.32806" x="797.56635"/>
+        </arc>
+        <arc target="pnre38.R" source="sa16" id="re38-react0" class="consumption">
+            <start y="662.0" x="378.5"/>
+            <end y="660.8" x="304.3"/>
+        </arc>
+        <arc target="sa9" source="pnre38.L" id="re38-product0" class="production">
+            <start y="660.8" x="294.3"/>
+            <end y="659.5" x="220.0"/>
+        </arc>
+        <arc target="pnre38" source="sa32" id="re38-mod0" class="modulation">
+            <start y="564.0" x="103.0"/>
+            <end y="665.68036" x="294.16162"/>
+        </arc>
+        <arc target="pnre38" source="sa33" id="re38-mod1" class="modulation">
+            <start y="518.5" x="210.5"/>
+            <end y="655.6616" x="294.31964"/>
+        </arc>
+        <arc target="pnre38" source="sa34" id="re38-mod2" class="modulation">
+            <start y="533.5" x="382.5"/>
+            <end y="655.81964" x="304.33838"/>
+        </arc>
+        <arc target="pnre39.L" source="csa2" id="re39-react0" class="consumption">
+            <start y="886.75" x="162.0"/>
+            <end y="886.5" x="263.5"/>
+        </arc>
+        <arc target="csa6" source="pnre39.R" id="re39-product0" class="production">
+            <start y="886.5" x="273.5"/>
+            <end y="886.25" x="375.0"/>
         </arc>
         <arc target="pnre39" source="sa39" id="re39-mod0" class="inhibition">
             <start y="820.25" x="138.5"/>
@@ -519,6 +507,14 @@
             <start y="817.66724" x="355.85785"/>
             <end y="881.4783" x="273.49823"/>
         </arc>
+        <arc target="pnre40.R" source="csa6" id="re40-react0" class="consumption">
+            <start y="926.75" x="375.0"/>
+            <end y="926.5" x="273.5"/>
+        </arc>
+        <arc target="csa2" source="pnre40.L" id="re40-product0" class="production">
+            <start y="926.5" x="263.5"/>
+            <end y="926.25" x="162.0"/>
+        </arc>
         <arc target="pnre40" source="sa39" id="re40-mod0" class="modulation">
             <start y="820.25" x="123.5"/>
             <end y="931.4982" x="263.47824"/>
@@ -534,6 +530,14 @@
         <arc target="pnre40" source="sa42" id="re40-mod3" class="modulation">
             <start y="822.5" x="385.0"/>
             <end y="931.5217" x="273.49823"/>
+        </arc>
+        <arc target="pnre41.L" source="csa4" id="re41-react0" class="consumption">
+            <start y="886.25" x="667.0"/>
+            <end y="886.1" x="784.5"/>
+        </arc>
+        <arc target="csa5" source="pnre41.R" id="re41-product0" class="production">
+            <start y="886.1" x="794.5"/>
+            <end y="886.0" x="912.0"/>
         </arc>
         <arc target="pnre41" source="sa48" id="re41-mod0" class="inhibition">
             <start y="732.5" x="783.0"/>
@@ -563,6 +567,14 @@
             <start y="833.54224" x="650.64215"/>
             <end y="881.115" x="789.4949"/>
         </arc>
+        <arc target="pnre42.R" source="csa5" id="re42-react0" class="consumption">
+            <start y="926.0" x="912.0"/>
+            <end y="926.4" x="794.5"/>
+        </arc>
+        <arc target="csa4" source="pnre42.L" id="re42-product0" class="production">
+            <start y="926.4" x="784.5"/>
+            <end y="926.75" x="667.0"/>
+        </arc>
         <arc target="pnre42" source="sa47" id="re42-mod0" class="modulation">
             <start y="838.375" x="636.5"/>
             <end y="931.4003" x="784.5054"/>
@@ -591,37 +603,25 @@
             <start y="834.79224" x="922.85785"/>
             <end y="921.3497" x="794.4946"/>
         </arc>
+        <arc target="pnre45.L" source="sa9" id="re45-react0" class="consumption">
+            <start y="629.5" x="220.0"/>
+            <end y="630.0" x="294.3"/>
+        </arc>
+        <arc target="sa16" source="pnre45.R" id="re45-product0" class="production">
+            <start y="630.0" x="304.3"/>
+            <end y="630.5" x="378.5"/>
+        </arc>
+        <arc target="pnre45" source="sa34" id="re45-mod0" class="inhibition">
+            <start y="533.5" x="337.5"/>
+            <end y="625.0217" x="304.2915"/>
+        </arc>
+        <arc target="pnre45" source="sa33" id="re45-mod1" class="inhibition">
+            <start y="518.5" x="255.5"/>
+            <end y="624.9901" x="299.28162"/>
+        </arc>
         <arc target="pnre45" source="sa32" id="re45-mod2" class="inhibition">
             <start y="564.0" x="163.0"/>
             <end y="624.9585" x="294.2717"/>
-        </arc>
-        <arc target="pnre24" source="sa28" id="re24-mod0" class="modulation">
-            <start y="60.0" x="288.0"/>
-            <end y="88.123276" x="285.76825"/>
-        </arc>
-        <arc target="pnre21" source="sa28" id="re21-mod0" class="inhibition">
-            <start y="61.0" x="229.0"/>
-            <end y="113.126724" x="275.73175"/>
-        </arc>
-        <arc target="pnre23" source="sa29" id="re23-mod0" class="inhibition">
-            <start y="44.05635" x="826.67944"/>
-            <end y="87.74" x="808.76"/>
-        </arc>
-        <arc target="pnre26" source="sa23" id="re26-mod0" class="inhibition">
-            <start y="204.15254" x="744.79114"/>
-            <end y="272.33615" x="780.269"/>
-        </arc>
-        <arc target="pnre28" source="sa27" id="re28-mod0" class="inhibition">
-            <start y="200.05635" x="194.82054"/>
-            <end y="273.10617" x="272.24887"/>
-        </arc>
-        <arc target="pnre32" source="sa31" id="re32-mod0" class="inhibition">
-            <start y="368.05634" x="195.82054"/>
-            <end y="423.8552" x="266.74985"/>
-        </arc>
-        <arc target="pnre30" source="sa30" id="re30-mod0" class="inhibition">
-            <start y="356.2277" x="740.1366"/>
-            <end y="433.61523" x="765.22034"/>
         </arc>
     </map>
 </sbgn>
