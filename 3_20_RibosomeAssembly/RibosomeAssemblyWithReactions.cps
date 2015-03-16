@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.15 (Build 95) (http://www.copasi.org) at 2015-03-12 09:28:33 UTC -->
+<!-- generated with COPASI 4.15 (Build 95) (http://www.copasi.org) at 2015-03-12 16:57:35 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="15" versionDevel="95" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -454,7 +454,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_119" stoichiometry="4"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4398" name="k1" value="0.814"/>
+          <Constant key="Parameter_4398" name="k1" value="0"/>
         </ListOfConstants>
         <KineticLaw function="Function_13">
           <ListOfCallParameters>
@@ -576,14 +576,14 @@ Reaction scheme where the products are created from the reactants and the change
           <ModelParameter cn="CN=Root,Model=Ribosome Assembly,Vector=Compartments[default],Vector=Metabolites[PI]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=Ribosome Assembly,Vector=Values[quantity_1]" value="0.152" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=Ribosome Assembly,Vector=Values[quantity_1]" value="1" type="ModelValue" simulationType="assignment"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=Ribosome Assembly,Vector=Reactions[Create30S]" type="Reaction">
             <ModelParameter cn="CN=Root,Model=Ribosome Assembly,Vector=Reactions[Create30S],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=Ribosome Assembly,Vector=Reactions[Create50S]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=Ribosome Assembly,Vector=Reactions[Create50S],ParameterGroup=Parameters,Parameter=k1" value="0.152" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=Ribosome Assembly,Vector=Reactions[Create50S],ParameterGroup=Parameters,Parameter=k1" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=Ribosome Assembly,Vector=Values[quantity_1],Reference=InitialValue&gt;
               </InitialExpression>
@@ -658,7 +658,7 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="Compartment_1"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 4 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 0 200 0 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 0 0 0.152 1 
+      0 4 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 0 200 0 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200 0 0 1 1 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -994,7 +994,7 @@ Reaction scheme where the products are created from the reactants and the change
   </ListOfReports>
   <GUI>
     <ListOfSliders>
-      <Slider key="Slider_0" associatedEntityKey="Task_11" objectCN="CN=Root,Model=Ribosome Assembly,Vector=Values[quantity_1],Reference=InitialValue" objectType="float" objectValue="0.152" minValue="0" maxValue="1" tickNumber="1000" tickFactor="100" scaling="linear"/>
+      <Slider key="Slider_0" associatedEntityKey="Task_11" objectCN="CN=Root,Model=Ribosome Assembly,Vector=Values[quantity_1],Reference=InitialValue" objectType="float" objectValue="1" minValue="0" maxValue="1" tickNumber="1000" tickFactor="100" scaling="linear"/>
     </ListOfSliders>
   </GUI>
   <SBMLReference file="RASBML.xml">

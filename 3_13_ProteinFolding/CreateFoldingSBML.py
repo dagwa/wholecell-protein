@@ -120,32 +120,28 @@ ASSIGNMENTS = """
       </initialAssignment>
 """
 
-REACTIONS = """
-      <reaction metaid="COPASI7" id="R1" name="R1" reversible="false">
+SPECIE_REF = """    <speciesReference species="$n" stoichiometry="$st"/>
+        """
+
+REACTION = """
+    <reaction metaid="COPASI$mid" id="$n" name="$n" reversible="false">
         <listOfReactants>
-          <speciesReference species="A_UNFOLDED" stoichiometry="1"/>
-          <speciesReference species="prosthetic" stoichiometry="2"/>
+        $REACTANTS
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="A" stoichiometry="1"/>
+        $PRODUCTS
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> compartment </ci>
-              <ci> R1_COND </ci>
-              <ci> A_UNFOLDED </ci>
-              <apply>
-                <power/>
-                <ci> prosthetic </ci>
-                <cn> 2 </cn>
-              </apply>
+                $CI
             </apply>
           </math>
         </kineticLaw>
-      </reaction>
-"""
+    </reaction>"""
+
 GLOBALS = """
       <assignmentRule variable="R1_COND">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -192,9 +188,10 @@ def parse(csvpath):
     x = x.replace('\r', '$')
     lines = x.split('$')
     for l in lines:
+        l=l.replace("], ","]/ ").replace(", M","/M").replace('"',"")
         splitted = l.split(',')
-        splitted[1] = splitted[1].split(',')
-        splitted[2] = splitted[2].split(',')
+        splitted[1] = splitted[1].split('/')
+        splitted[2] = splitted[2].split('/')
         preactions.append(splitted)
     f.close()
 
@@ -206,6 +203,7 @@ def getMID():
 
 
 addeds = []
+
 
 def addSpecie(doc, name):
     if name and name not in addeds:
@@ -221,7 +219,7 @@ def createSpecies(doc):
         name = r[0].__str__()
         addSpecie(doc, name)
         if name:
-            addSpecie(doc, "UNF_"+name)
+            addSpecie(doc, "UNF_" + name)
         #Process prosthetic groups
         for p in r[1]:
             name = p.split(" ")
@@ -237,10 +235,48 @@ def createAssignments(doc):
     doc.write("    </listOfInitialAssignments>\n")
 
 
+def addReaction(doc, name, R):
+    reaction = REACTION.replace("$n", name).replace("$mid", getMID())
+    #Iterate reactants
+    reactants = SPECIE_REF.replace("$n", "UNF_" + R[0]).replace("$st", "1")
+    products = SPECIE_REF.replace("$n", R[0]).replace("$st", "1")
+
+    for r in R[1]:
+        if r:
+            #(-1) MG[c]
+            #NA[c], ZN[c]
+            #(-1) K[c], (2) MG[c]
+            r=r.replace('"',"").strip()
+            stoichiometry = 0
+            reactant = r
+            if r[0] == '(':
+                reactant = r[r.index(' ') + 1:len(r)]
+            if r[1] == '-':
+                stoichiometry = r[2]
+                reactants += SPECIE_REF.replace("$n", reactant.replace("[", "_").replace("]", "")).replace("$st",
+                                                                                                           stoichiometry.__str__())
+            else:
+                if r[1] == '+':
+                    stoichiometry = r[2]
+                else:
+                    stoichiometry = r[1]
+                products += SPECIE_REF.replace("$n", reactant.replace("[", "_").replace("]", "")).replace("$st",
+                                                                                                          stoichiometry.__str__())
+
+    reaction = reaction.replace("$REACTANTS", reactants)
+    reaction = reaction.replace("$PRODUCTS", products)
+    doc.write(reaction)
+    #<ci> r1 </ci>
+    #<ci> A_un </ci>
+    #<ci> X </ci>
+
+
 def createReactions(doc):
     doc.write("    <listOfReactions>\n")
     for r in preactions:
-        break
+        if r[0].__str__():
+            name = "R_" + r[0].__str__()
+            addReaction(doc, name, r)
     doc.write("    </listOfReactions>\n")
 
 
