@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.14 (Build 89) (http://www.copasi.org) at 2015-03-12 13:58:22 UTC -->
+<!-- generated with COPASI 4.14 (Build 89) (http://www.copasi.org) at 2015-03-15 14:01:43 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="14" versionDevel="89" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -57,7 +57,9 @@
     <ListOfMetabolites>
       <Metabolite key="Metabolite_1" name="MG_101_MONOMER" simulationType="fixed" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_1">
     <dcterms:created>
       <rdf:Description>
@@ -66,6 +68,7 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_3" name="MG_127_MONOMER" simulationType="fixed" compartment="Compartment_1">
@@ -332,7 +335,9 @@
     <ListOfReactions>
       <Reaction key="Reaction_0" name="dummy_reaction" reversible="false" fast="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Reaction_0">
     <dcterms:created>
       <rdf:Description>
@@ -341,17 +346,18 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <ListOfProducts>
           <Product metabolite="Metabolite_73" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4383" name="v" value="10"/>
+          <Constant key="Parameter_4398" name="v" value="10"/>
         </ListOfConstants>
         <KineticLaw function="Function_6">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_49">
-              <SourceParameter reference="Parameter_4383"/>
+              <SourceParameter reference="Parameter_4398"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
@@ -444,7 +450,9 @@
       </Event>
       <Event key="Event_3" name="event_DNA_GYRASE_2" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_3">
     <dcterms:created>
       <rdf:Description>
@@ -453,6 +461,7 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <TriggerExpression>
           &lt;CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[ciprofloxacin],Reference=InitialConcentration&gt; LE 0 and &lt;CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[difloxacin],Reference=InitialConcentration&gt; LE 0 and &lt;CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[sparfloxacin],Reference=InitialConcentration&gt; LE 0 and &lt;CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Values[start],Reference=Value&gt; GT 0
@@ -920,7 +929,9 @@
       </Event>
       <Event key="Event_20" name="event_dummy" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_20">
     <dcterms:created>
       <rdf:Description>
@@ -929,6 +940,7 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <TriggerExpression>
           &lt;CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[dummy],Reference=ParticleNumber&gt; gt 3
@@ -951,15 +963,15 @@
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_101_MONOMER]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_127_MONOMER]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_30S]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_50S]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_085_HEXAMER]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_203_204_TETRAMER]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_205_DIMER]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_236_MONOMER]" value="10" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_409_DIMER]" value="10" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_101_MONOMER]" value="1" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_127_MONOMER]" value="2" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_30S]" value="3" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_50S]" value="4" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_085_HEXAMER]" value="5" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_203_204_TETRAMER]" value="6" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_205_DIMER]" value="7" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_236_MONOMER]" value="8" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_409_DIMER]" value="9" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[G6P]" value="10" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[PI]" value="0" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[DNA_GYRASE]" value="0" type="Species" simulationType="fixed"/>
@@ -977,16 +989,16 @@
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[erythromycin]" value="0" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[lincomycin]" value="0" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[pristinamycin]" value="0" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_085_HEXAMER__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_127_MONOMER__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_236_MONOMER__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_203_204_TETRAMER__inactive]" value="5" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_085_HEXAMER__inactive]" value="1" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_127_MONOMER__inactive]" value="2" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_236_MONOMER__inactive]" value="3" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_203_204_TETRAMER__inactive]" value="4" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_30S__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_50S__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[DNA_GYRASE__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_409_DIMER__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_205_DIMER__inactive]" value="5" type="Species" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_101_MONOMER__inactive]" value="5" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_50S__inactive]" value="6" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[DNA_GYRASE__inactive]" value="7" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_409_DIMER__inactive]" value="8" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_205_DIMER__inactive]" value="9" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_101_MONOMER__inactive]" value="10" type="Species" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[dummy]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
@@ -1050,12 +1062,11 @@
       <StateTemplateVariable objectReference="ModelValue_4"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 10 10 10 10 10 10 10 10 10 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 5 5 5 5 5 5 5 5 1 0 0 45 0 0 
+      0 0 1 2 3 4 5 6 7 8 9 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 3 4 5 6 7 8 9 10 1 0 0 45 0 0 
     </InitialState>
   </Model>
   <ListOfTasks>
     <Task key="Task_14" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
-      <Report reference="Report_9" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="JacobianRequested" type="bool" value="1"/>
         <Parameter name="StabilityAnalysisRequested" type="bool" value="1"/>
@@ -1079,7 +1090,7 @@
         <Parameter name="Duration" type="float" value="1"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
-        <Parameter name="Output Event" type="bool" value="0"/>
+        <Parameter name="Output Event" type="bool" value="1"/>
         <Parameter name="Continue on Simultaneous Events" type="bool" value="1"/>
       </Problem>
       <Method name="Deterministic (LSODA)" type="Deterministic(LSODA)">
@@ -1101,14 +1112,12 @@
       </Method>
     </Task>
     <Task key="Task_17" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
-      <Report reference="Report_10" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="EFM Algorithm" type="EFMAlgorithm">
       </Method>
     </Task>
     <Task key="Task_18" name="Optimization" type="optimization" scheduled="false" updateModel="false">
-      <Report reference="Report_11" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Subtask" type="cn" value="CN=Root,Vector=TaskList[Steady-State]"/>
         <ParameterText name="ObjectiveExpression" type="expression">
@@ -1129,7 +1138,6 @@
       </Method>
     </Task>
     <Task key="Task_19" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="false">
-      <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
         <Parameter name="Randomize Start Values" type="bool" value="0"/>
@@ -1156,7 +1164,6 @@
       </Method>
     </Task>
     <Task key="Task_20" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_13" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Steady-State" type="key" value="Task_14"/>
       </Problem>
@@ -1165,7 +1172,6 @@
       </Method>
     </Task>
     <Task key="Task_21" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
-      <Report reference="Report_14" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="ExponentNumber" type="unsignedInteger" value="3"/>
         <Parameter name="DivergenceRequested" type="bool" value="1"/>
@@ -1180,7 +1186,6 @@
       </Method>
     </Task>
     <Task key="Task_22" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_15" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
@@ -1193,7 +1198,6 @@
       </Method>
     </Task>
     <Task key="Task_23" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
-      <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="SubtaskType" type="unsignedInteger" value="1"/>
         <ParameterGroup name="TargetFunctions">
@@ -1251,7 +1255,6 @@
       </Method>
     </Task>
     <Task key="Task_26" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
-      <Report reference="Report_17" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Steady-State" type="key" value="Task_14"/>
       </Problem>
@@ -1259,159 +1262,260 @@
       </Method>
     </Task>
   </ListOfTasks>
-  <ListOfReports>
-    <Report key="Report_9" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Footer>
-        <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
-      </Footer>
-    </Report>
-    <Report key="Report_10" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Footer>
-        <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_11" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Description"/>
-        <Object cn="String=\[Function Evaluations\]"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="String=\[Best Value\]"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="String=\[Best Parameters\]"/>
-      </Header>
-      <Body>
-        <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Function Evaluations"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Best Value"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="CN=Root,Vector=TaskList[Optimization],Problem=Optimization,Reference=Best Parameters"/>
-      </Body>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_12" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Description"/>
-        <Object cn="String=\[Function Evaluations\]"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="String=\[Best Value\]"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="String=\[Best Parameters\]"/>
-      </Header>
-      <Body>
-        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Function Evaluations"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
-        <Object cn="Separator=&#x09;"/>
-        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Parameters"/>
-      </Body>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_13" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Description"/>
-      </Header>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_14" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Description"/>
-      </Header>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_15" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Description"/>
-      </Header>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_16" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Description"/>
-      </Header>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
-      </Footer>
-    </Report>
-    <Report key="Report_17" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
-      <Comment>
-        Automatically generated report.
-      </Comment>
-      <Header>
-        <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Description"/>
-      </Header>
-      <Footer>
-        <Object cn="String=&#x0a;"/>
-        <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
-      </Footer>
-    </Report>
-  </ListOfReports>
+  <ListOfPlots>
+    <PlotSpecification name="Particle Numbers, Volumes, and Global Quantity Values" type="Plot2D" active="1">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <ListOfPlotItems>
+        <PlotItem name="DNA_GYRASE.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[DNA_GYRASE],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="DNA_GYRASE__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[DNA_GYRASE__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_085_HEXAMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_085_HEXAMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_085_HEXAMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_085_HEXAMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_101_MONOMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_101_MONOMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_101_MONOMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_101_MONOMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_127_MONOMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_127_MONOMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_127_MONOMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_127_MONOMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_203_204_TETRAMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_203_204_TETRAMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_203_204_TETRAMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_203_204_TETRAMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_205_DIMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_205_DIMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_205_DIMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_205_DIMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_236_MONOMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_236_MONOMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_236_MONOMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_236_MONOMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_409_DIMER.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_409_DIMER],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="MG_409_DIMER__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[MG_409_DIMER__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="RIBOSOME_30S.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_30S],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="RIBOSOME_30S__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_30S__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="RIBOSOME_50S.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="0.5"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_50S],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="RIBOSOME_50S__inactive.ParticleNumber" type="Curve2D">
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=Whole Cell 2015 - Protein Activation,Vector=Compartments[default],Vector=Metabolites[RIBOSOME_50S__inactive],Reference=ParticleNumber"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+  </ListOfPlots>
   <GUI>
   </GUI>
   <SBMLReference file="ProteinActivation_sbml.xml">
     <SBMLMap SBMLid="Constant_flux__irreversible" COPASIkey="Function_6"/>
     <SBMLMap SBMLid="default" COPASIkey="Compartment_1"/>
     <SBMLMap SBMLid="dummy" COPASIkey="Metabolite_73"/>
-    <SBMLMap SBMLid="event_DNA_GYRASE" COPASIkey="Event_2"/>
-    <SBMLMap SBMLid="event_DNA_GYRASE_2" COPASIkey="Event_3"/>
-    <SBMLMap SBMLid="event_MG_085" COPASIkey="Event_4"/>
-    <SBMLMap SBMLid="event_MG_085_2" COPASIkey="Event_5"/>
-    <SBMLMap SBMLid="event_MG_101" COPASIkey="Event_0"/>
-    <SBMLMap SBMLid="event_MG_101_2" COPASIkey="Event_1"/>
-    <SBMLMap SBMLid="event_MG_127" COPASIkey="Event_6"/>
-    <SBMLMap SBMLid="event_MG_127_2" COPASIkey="Event_7"/>
-    <SBMLMap SBMLid="event_MG_203_204" COPASIkey="Event_8"/>
-    <SBMLMap SBMLid="event_MG_203_204_2" COPASIkey="Event_9"/>
-    <SBMLMap SBMLid="event_MG_205" COPASIkey="Event_10"/>
-    <SBMLMap SBMLid="event_MG_205_2" COPASIkey="Event_11"/>
-    <SBMLMap SBMLid="event_MG_236" COPASIkey="Event_12"/>
-    <SBMLMap SBMLid="event_MG_236_2" COPASIkey="Event_13"/>
-    <SBMLMap SBMLid="event_MG_409" COPASIkey="Event_14"/>
-    <SBMLMap SBMLid="event_MG_409_2" COPASIkey="Event_15"/>
-    <SBMLMap SBMLid="event_RIBOSOME_30S" COPASIkey="Event_16"/>
-    <SBMLMap SBMLid="event_RIBOSOME_30S_2" COPASIkey="Event_17"/>
-    <SBMLMap SBMLid="event_RIBOSOME_50S" COPASIkey="Event_18"/>
-    <SBMLMap SBMLid="event_RIBOSOME_50S_2" COPASIkey="Event_19"/>
-    <SBMLMap SBMLid="event_dummy" COPASIkey="Event_20"/>
     <SBMLMap SBMLid="reaction_1" COPASIkey="Reaction_0"/>
     <SBMLMap SBMLid="s11" COPASIkey="Metabolite_9"/>
     <SBMLMap SBMLid="s12" COPASIkey="Metabolite_11"/>
