@@ -1,16 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.15 (Build 95) on 2015-03-11 08:28 with libSBML version 5.11.1. -->
-<sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
-  <model metaid="COPASI0" id="TErminal_Organelle_Assembly" name="TErminal Organelle Assembly">
+<!-- Created by COPASI version 4.15 (Build 95) on 2015-03-17 23:04 with libSBML version 5.11.1. -->
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="COPASI0" id="WCM_3_24_Terminal_Organelle_Assembly" name="WCM_3_24_Terminal Organelle Assembly">
     <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Chew</vCard:Family>
+                  <vCard:Given>Yin Hoon</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>YinHoon.Chew@ed.ac.uk</vCard:EMAIL>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>University of Edinburgh</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-03-09T23:26:27Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2015-03-09T23:26:27Z</dcterms:W3CDTF>
+          </dcterms:modified>
+        </rdf:Description>
+      </rdf:RDF>
       <COPASI xmlns="http://www.copasi.org/static/sbml">
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
           <rdf:Description rdf:about="#COPASI0">
             <dcterms:created>
               <rdf:Description>
                 <dcterms:W3CDTF>2015-03-09T23:26:27Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
+            <dcterms:creator>
+              <rdf:Description>
+                <vCard:EMAIL>YinHoon.Chew@ed.ac.uk</vCard:EMAIL>
+                <vCard:N>
+                  <rdf:Description>
+                    <vCard:Family>Chew</vCard:Family>
+                    <vCard:Given>Yin Hoon</vCard:Given>
+                  </rdf:Description>
+                </vCard:N>
+                <vCard:ORG>
+                  <rdf:Description>
+                    <vCard:Orgname>University of Edinburgh</vCard:Orgname>
+                  </rdf:Description>
+                </vCard:ORG>
+              </rdf:Description>
+            </dcterms:creator>
           </rdf:Description>
         </rdf:RDF>
       </COPASI>
@@ -34,11 +74,11 @@
       <compartment id="terminal_organelle_membrane" name="terminal organelle membrane" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="COPASI5" id="HMW1_c_0" name="HMW1_c" compartment="cytosol" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI1" id="HMW1_c" name="HMW1_c" compartment="cytosol" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI5">
+              <rdf:Description rdf:about="#COPASI1">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T15:27:09Z</dcterms:W3CDTF>
@@ -49,11 +89,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI6" id="HMW2_c" name="HMW2_c" compartment="cytosol" initialConcentration="9" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI2" id="HMW2_c" name="HMW2_c" compartment="cytosol" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI6">
+              <rdf:Description rdf:about="#COPASI2">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T22:51:50Z</dcterms:W3CDTF>
@@ -64,11 +104,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI7" id="HMW3_c" name="HMW3_c" compartment="cytosol" initialConcentration="8" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI3" id="HMW3_c" name="HMW3_c" compartment="cytosol" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI7">
+              <rdf:Description rdf:about="#COPASI3">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T22:56:56Z</dcterms:W3CDTF>
@@ -79,11 +119,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI8" id="P200_c" name="P200_c" compartment="cytosol" initialConcentration="5" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI4" id="P200_c" name="P200_c" compartment="cytosol" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI8">
+              <rdf:Description rdf:about="#COPASI4">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:17:04Z</dcterms:W3CDTF>
@@ -94,11 +134,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI9" id="P65_c" name="P65_c" compartment="cytosol" initialConcentration="3" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI5" id="P65_c" name="P65_c" compartment="cytosol" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI9">
+              <rdf:Description rdf:about="#COPASI5">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:24:18Z</dcterms:W3CDTF>
@@ -109,11 +149,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI10" id="P110_tm" name="P110_tm" compartment="cytosol" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI6" id="P110_tm" name="P110_tm" compartment="cytosol" initialConcentration="6" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI10">
+              <rdf:Description rdf:about="#COPASI6">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:16:19Z</dcterms:W3CDTF>
@@ -124,11 +164,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI11" id="HMW2_tc" name="HMW2_tc" compartment="terminal_organelle" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI7" id="HMW2_tc" name="HMW2_tc" compartment="terminal_organelle" initialConcentration="9" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI11">
+              <rdf:Description rdf:about="#COPASI7">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T22:53:47Z</dcterms:W3CDTF>
@@ -139,11 +179,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI12" id="HMW3_tc" name="HMW3_tc" compartment="terminal_organelle" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI8" id="HMW3_tc" name="HMW3_tc" compartment="terminal_organelle" initialConcentration="8" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI12">
+              <rdf:Description rdf:about="#COPASI8">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T22:59:27Z</dcterms:W3CDTF>
@@ -154,11 +194,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI13" id="P200_tc" name="P200_tc" compartment="terminal_organelle" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI9" id="P200_tc" name="P200_tc" compartment="terminal_organelle" initialConcentration="5" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI13">
+              <rdf:Description rdf:about="#COPASI9">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:19:00Z</dcterms:W3CDTF>
@@ -169,11 +209,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI14" id="P65_tc" name="P65_tc" compartment="terminal_organelle" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI10" id="P65_tc" name="P65_tc" compartment="terminal_organelle" initialConcentration="3" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI14">
+              <rdf:Description rdf:about="#COPASI10">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:27:28Z</dcterms:W3CDTF>
@@ -184,11 +224,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI15" id="MgPa_m" name="MgPa_m" compartment="membrane" initialConcentration="7" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI11" id="MgPa_m" name="MgPa_m" compartment="membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI15">
+              <rdf:Description rdf:about="#COPASI11">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:01:41Z</dcterms:W3CDTF>
@@ -199,11 +239,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI16" id="P32_m" name="P32_m" compartment="membrane" initialConcentration="4" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI12" id="P32_m" name="P32_m" compartment="membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI16">
+              <rdf:Description rdf:about="#COPASI12">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:20:41Z</dcterms:W3CDTF>
@@ -214,11 +254,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI17" id="P110_m" name="P110_m" compartment="membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI13" id="P110_m" name="P110_m" compartment="membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI17">
+              <rdf:Description rdf:about="#COPASI13">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:15:59Z</dcterms:W3CDTF>
@@ -229,11 +269,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI18" id="HMW1_tc_0" name="HMW1_tc" compartment="membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI14" id="HMW1_tc" name="HMW1_tc" compartment="membrane" initialConcentration="10" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI18">
+              <rdf:Description rdf:about="#COPASI14">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T16:25:21Z</dcterms:W3CDTF>
@@ -244,11 +284,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI19" id="MgPa_tm" name="MgPa_tm" compartment="terminal_organelle_membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI15" id="MgPa_tm" name="MgPa_tm" compartment="terminal_organelle_membrane" initialConcentration="7" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI19">
+              <rdf:Description rdf:about="#COPASI15">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T23:13:18Z</dcterms:W3CDTF>
@@ -259,11 +299,11 @@
           </COPASI>
         </annotation>
       </species>
-      <species metaid="COPASI20" id="P32_tm" name="P32_tm" compartment="terminal_organelle_membrane" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
+      <species metaid="COPASI16" id="P32_tm" name="P32_tm" compartment="terminal_organelle_membrane" initialConcentration="4" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI20">
+              <rdf:Description rdf:about="#COPASI16">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T15:47:51Z</dcterms:W3CDTF>
@@ -276,11 +316,11 @@
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="COPASI21" id="HMW1_c_init_0" name="HMW1_c_init" value="0" constant="true">
+      <parameter metaid="COPASI17" id="HMW1_c_init" name="HMW1_c_init" value="10" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI21">
+              <rdf:Description rdf:about="#COPASI17">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T16:19:30Z</dcterms:W3CDTF>
@@ -291,27 +331,13 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI22" id="HMW1_tc_init_0" name="HMW1_tc_init" value="0" constant="true">
-        <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI22">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2015-03-11T08:14:05Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
-      </parameter>
+      <parameter id="HMW1_tc_init" name="HMW1_tc_init" value="0" constant="true"/>
       <parameter id="HMW2_c_init" name="HMW2_c_init" value="9" constant="true"/>
-      <parameter metaid="COPASI23" id="HMW2_tc_init" name="HMW2_tc_init" value="0" constant="true">
+      <parameter metaid="COPASI18" id="HMW2_tc_init" name="HMW2_tc_init" value="0" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI23">
+              <rdf:Description rdf:about="#COPASI18">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T16:07:47Z</dcterms:W3CDTF>
@@ -323,11 +349,11 @@
         </annotation>
       </parameter>
       <parameter id="HMW3_c_init" name="HMW3_c_init" value="8" constant="true"/>
-      <parameter metaid="COPASI24" id="HMW3_tc_init" name="HMW3_tc_init" value="0" constant="true">
+      <parameter metaid="COPASI19" id="HMW3_tc_init" name="HMW3_tc_init" value="0" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI24">
+              <rdf:Description rdf:about="#COPASI19">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2015-03-10T16:15:55Z</dcterms:W3CDTF>
@@ -362,12 +388,7 @@
       </initialAssignment>
     </listOfInitialAssignments>
     <listOfRules>
-      <assignmentRule variable="P110_m">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 0 </cn>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="HMW1_c_0">
+      <assignmentRule variable="HMW1_c">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <piecewise>
             <piece>
@@ -378,8 +399,8 @@
                   <gt/>
                   <apply>
                     <plus/>
-                    <ci> HMW1_c_init_0 </ci>
-                    <ci> HMW1_tc_init_0 </ci>
+                    <ci> HMW1_c_init </ci>
+                    <ci> HMW1_tc_init </ci>
                   </apply>
                   <cn> 0 </cn>
                 </apply>
@@ -388,14 +409,14 @@
                   <apply>
                     <plus/>
                     <ci> HMW2_c_init </ci>
-                    <ci> HMW1_tc_init_0 </ci>
+                    <ci> HMW1_tc_init </ci>
                   </apply>
                   <cn> 0 </cn>
                 </apply>
               </apply>
             </piece>
             <otherwise>
-              <ci> HMW1_c_init_0 </ci>
+              <ci> HMW1_c_init </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -407,118 +428,6 @@
             <ci> P110_tm_init </ci>
             <ci> P110_m_init </ci>
           </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="HMW1_tc_0">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <apply>
-                <plus/>
-                <ci> HMW1_tc_init_0 </ci>
-                <ci> HMW1_c_init_0 </ci>
-              </apply>
-              <apply>
-                <and/>
-                <apply>
-                  <gt/>
-                  <apply>
-                    <plus/>
-                    <ci> HMW1_c_init_0 </ci>
-                    <ci> HMW1_tc_init_0 </ci>
-                  </apply>
-                  <cn> 0 </cn>
-                </apply>
-                <apply>
-                  <gt/>
-                  <apply>
-                    <plus/>
-                    <ci> HMW2_c_init </ci>
-                    <ci> HMW1_tc_init_0 </ci>
-                  </apply>
-                  <cn> 0 </cn>
-                </apply>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> HMW1_tc_init_0 </ci>
-            </otherwise>
-          </piecewise>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="HMW3_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <cn> 0 </cn>
-              <apply>
-                <gt/>
-                <apply>
-                  <times/>
-                  <ci> HMW1_tc_0 </ci>
-                  <ci> membrane </ci>
-                </apply>
-                <cn> 0 </cn>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> HMW3_c_init </ci>
-            </otherwise>
-          </piecewise>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="HMW2_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <cn> 0 </cn>
-              <apply>
-                <and/>
-                <apply>
-                  <gt/>
-                  <apply>
-                    <plus/>
-                    <ci> HMW1_c_init_0 </ci>
-                    <ci> HMW1_tc_init_0 </ci>
-                  </apply>
-                  <cn> 0 </cn>
-                </apply>
-                <apply>
-                  <gt/>
-                  <apply>
-                    <plus/>
-                    <ci> HMW2_c_init </ci>
-                    <ci> HMW1_tc_init_0 </ci>
-                  </apply>
-                  <cn> 0 </cn>
-                </apply>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> HMW2_c_init </ci>
-            </otherwise>
-          </piecewise>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="MgPa_m">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <cn> 0 </cn>
-              <apply>
-                <gt/>
-                <apply>
-                  <times/>
-                  <ci> HMW1_tc_0 </ci>
-                  <ci> membrane </ci>
-                </apply>
-                <cn> 0 </cn>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> MgPa_m_init </ci>
-            </otherwise>
-          </piecewise>
         </math>
       </assignmentRule>
       <assignmentRule variable="HMW2_tc">
@@ -536,8 +445,8 @@
                   <gt/>
                   <apply>
                     <plus/>
-                    <ci> HMW1_c_init_0 </ci>
-                    <ci> HMW1_tc_init_0 </ci>
+                    <ci> HMW1_c_init </ci>
+                    <ci> HMW1_tc_init </ci>
                   </apply>
                   <cn> 0 </cn>
                 </apply>
@@ -546,7 +455,7 @@
                   <apply>
                     <plus/>
                     <ci> HMW2_c_init </ci>
-                    <ci> HMW1_tc_init_0 </ci>
+                    <ci> HMW1_tc_init </ci>
                   </apply>
                   <cn> 0 </cn>
                 </apply>
@@ -554,6 +463,73 @@
             </piece>
             <otherwise>
               <ci> HMW2_tc_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="P110_m">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn> 0 </cn>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="HMW1_tc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <plus/>
+                <ci> HMW1_tc_init </ci>
+                <ci> HMW1_c_init </ci>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <apply>
+                    <plus/>
+                    <ci> HMW1_c_init </ci>
+                    <ci> HMW1_tc_init </ci>
+                  </apply>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <gt/>
+                  <apply>
+                    <plus/>
+                    <ci> HMW2_c_init </ci>
+                    <ci> HMW1_tc_init </ci>
+                  </apply>
+                  <cn> 0 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> HMW1_tc_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="P200_tc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <plus/>
+                <ci> P200_tc_init </ci>
+                <ci> P200_c_init </ci>
+              </apply>
+              <apply>
+                <gt/>
+                <apply>
+                  <times/>
+                  <ci> HMW1_tc </ci>
+                  <ci> membrane </ci>
+                </apply>
+                <cn> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> P200_tc_init </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -571,7 +547,7 @@
                 <gt/>
                 <apply>
                   <times/>
-                  <ci> HMW1_tc_0 </ci>
+                  <ci> HMW1_tc </ci>
                   <ci> membrane </ci>
                 </apply>
                 <cn> 0 </cn>
@@ -583,7 +559,7 @@
           </piecewise>
         </math>
       </assignmentRule>
-      <assignmentRule variable="P200_c">
+      <assignmentRule variable="MgPa_m">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <piecewise>
             <piece>
@@ -592,39 +568,14 @@
                 <gt/>
                 <apply>
                   <times/>
-                  <ci> HMW1_tc_0 </ci>
+                  <ci> HMW1_tc </ci>
                   <ci> membrane </ci>
                 </apply>
                 <cn> 0 </cn>
               </apply>
             </piece>
             <otherwise>
-              <ci> P200_c_init </ci>
-            </otherwise>
-          </piecewise>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="MgPa_tm">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <apply>
-                <plus/>
-                <ci> MgPa_tm_init </ci>
-                <ci> MgPa_m_init </ci>
-              </apply>
-              <apply>
-                <gt/>
-                <apply>
-                  <times/>
-                  <ci> HMW1_tc_0 </ci>
-                  <ci> membrane </ci>
-                </apply>
-                <cn> 0 </cn>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> MgPa_tm_init </ci>
+              <ci> MgPa_m_init </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -646,31 +597,6 @@
             </piece>
             <otherwise>
               <ci> P32_m_init </ci>
-            </otherwise>
-          </piecewise>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="P200_tc">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <apply>
-                <plus/>
-                <ci> P200_tc_init </ci>
-                <ci> P200_c_init </ci>
-              </apply>
-              <apply>
-                <gt/>
-                <apply>
-                  <times/>
-                  <ci> HMW1_tc_0 </ci>
-                  <ci> membrane </ci>
-                </apply>
-                <cn> 0 </cn>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> P200_tc_init </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -700,27 +626,6 @@
           </piecewise>
         </math>
       </assignmentRule>
-      <assignmentRule variable="P65_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <piecewise>
-            <piece>
-              <cn> 0 </cn>
-              <apply>
-                <gt/>
-                <apply>
-                  <times/>
-                  <ci> P32_tm </ci>
-                  <ci> terminal_organelle_membrane </ci>
-                </apply>
-                <cn> 0 </cn>
-              </apply>
-            </piece>
-            <otherwise>
-              <ci> P65_c_init </ci>
-            </otherwise>
-          </piecewise>
-        </math>
-      </assignmentRule>
       <assignmentRule variable="P65_tc">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <piecewise>
@@ -742,6 +647,127 @@
             </piece>
             <otherwise>
               <ci> P65_tc_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="MgPa_tm">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <plus/>
+                <ci> MgPa_tm_init </ci>
+                <ci> MgPa_m_init </ci>
+              </apply>
+              <apply>
+                <gt/>
+                <apply>
+                  <times/>
+                  <ci> HMW1_tc </ci>
+                  <ci> membrane </ci>
+                </apply>
+                <cn> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> MgPa_tm_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="HMW2_c">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <cn> 0 </cn>
+              <apply>
+                <and/>
+                <apply>
+                  <gt/>
+                  <apply>
+                    <plus/>
+                    <ci> HMW1_c_init </ci>
+                    <ci> HMW1_tc_init </ci>
+                  </apply>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <gt/>
+                  <apply>
+                    <plus/>
+                    <ci> HMW2_c_init </ci>
+                    <ci> HMW1_tc_init </ci>
+                  </apply>
+                  <cn> 0 </cn>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> HMW2_c_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="HMW3_c">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <cn> 0 </cn>
+              <apply>
+                <gt/>
+                <apply>
+                  <times/>
+                  <ci> HMW1_tc </ci>
+                  <ci> membrane </ci>
+                </apply>
+                <cn> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> HMW3_c_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="P200_c">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <cn> 0 </cn>
+              <apply>
+                <gt/>
+                <apply>
+                  <times/>
+                  <ci> HMW1_tc </ci>
+                  <ci> membrane </ci>
+                </apply>
+                <cn> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> P200_c_init </ci>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="P65_c">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <cn> 0 </cn>
+              <apply>
+                <gt/>
+                <apply>
+                  <times/>
+                  <ci> P32_tm </ci>
+                  <ci> terminal_organelle_membrane </ci>
+                </apply>
+                <cn> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci> P65_c_init </ci>
             </otherwise>
           </piecewise>
         </math>

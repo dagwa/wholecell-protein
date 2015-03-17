@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.15 (Build 95) (http://www.copasi.org) at 2015-03-10 23:30:37 UTC -->
+<!-- generated with COPASI 4.15 (Build 95) (http://www.copasi.org) at 2015-03-17 23:04:14 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="15" versionDevel="95" copasiSourcesModified="0">
-  <Model key="Model_4" name="TErminal Organelle Assembly" simulationType="time" timeUnit="s" volumeUnit="ml" areaUnit="m²" lengthUnit="m" quantityUnit="#" type="deterministic" avogadroConstant="6.02214179e+023">
+  <Model key="Model_4" name="WCM_3_24_Terminal Organelle Assembly" simulationType="time" timeUnit="s" volumeUnit="ml" areaUnit="m²" lengthUnit="m" quantityUnit="#" type="deterministic" avogadroConstant="6.02214179e+023">
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <rdf:Description rdf:about="#Model_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-09T23:26:27Z</dcterms:W3CDTF>
       </rdf:Description>
     </dcterms:created>
+    <dcterms:creator>
+      <rdf:Description>
+        <vCard:EMAIL>YinHoon.Chew@ed.ac.uk</vCard:EMAIL>
+        <vCard:N>
+          <rdf:Description>
+            <vCard:Family>Chew</vCard:Family>
+            <vCard:Given>Yin Hoon</vCard:Given>
+          </rdf:Description>
+        </vCard:N>
+        <vCard:ORG>
+          <rdf:Description>
+            <vCard:Orgname>University of Edinburgh</vCard:Orgname>
+          </rdf:Description>
+        </vCard:ORG>
+      </rdf:Description>
+    </dcterms:creator>
   </rdf:Description>
 </rdf:RDF>
 
@@ -28,12 +45,10 @@
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_5" name="HMW1_c" simulationType="assignment" compartment="Compartment_1">
+      <Metabolite key="Metabolite_1" name="HMW1_c" simulationType="assignment" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_5">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T15:27:09Z</dcterms:W3CDTF>
@@ -41,18 +56,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_12" name="HMW2_c" simulationType="assignment" compartment="Compartment_1">
+      <Metabolite key="Metabolite_3" name="HMW2_c" simulationType="assignment" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_12">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T22:51:50Z</dcterms:W3CDTF>
@@ -60,18 +72,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_16" name="HMW3_c" simulationType="assignment" compartment="Compartment_1">
+      <Metabolite key="Metabolite_5" name="HMW3_c" simulationType="assignment" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_16">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T22:56:56Z</dcterms:W3CDTF>
@@ -79,18 +88,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW3_c_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW3_c_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_24" name="P200_c" simulationType="assignment" compartment="Compartment_1">
+      <Metabolite key="Metabolite_7" name="P200_c" simulationType="assignment" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_24">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:17:04Z</dcterms:W3CDTF>
@@ -98,18 +104,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P200_c_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P200_c_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_32" name="P65_c" simulationType="assignment" compartment="Compartment_1">
+      <Metabolite key="Metabolite_9" name="P65_c" simulationType="assignment" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_32">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:24:18Z</dcterms:W3CDTF>
@@ -117,18 +120,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[P32_tm],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P65_c_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[P32_tm],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P65_c_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_40" name="P110_tm" simulationType="assignment" compartment="Compartment_1">
+      <Metabolite key="Metabolite_11" name="P110_tm" simulationType="assignment" compartment="Compartment_1">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_40">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_11">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:16:19Z</dcterms:W3CDTF>
@@ -136,18 +136,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P110_tm_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P110_m_init],Reference=Value&gt;
+          &lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P110_tm_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P110_m_init],Reference=Value&gt;
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_14" name="HMW2_tc" simulationType="assignment" compartment="Compartment_3">
+      <Metabolite key="Metabolite_13" name="HMW2_tc" simulationType="assignment" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_14">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T22:53:47Z</dcterms:W3CDTF>
@@ -155,18 +152,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_tc_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_tc_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_18" name="HMW3_tc" simulationType="assignment" compartment="Compartment_3">
+      <Metabolite key="Metabolite_15" name="HMW3_tc" simulationType="assignment" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_18">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T22:59:27Z</dcterms:W3CDTF>
@@ -174,18 +168,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW3_tc_init],Reference=InitialValue&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW3_c_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW3_tc_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW3_tc_init],Reference=InitialValue&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW3_c_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW3_tc_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_26" name="P200_tc" simulationType="assignment" compartment="Compartment_3">
+      <Metabolite key="Metabolite_17" name="P200_tc" simulationType="assignment" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_26">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:19:00Z</dcterms:W3CDTF>
@@ -193,18 +184,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P200_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P200_c_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P200_tc_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P200_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P200_c_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P200_tc_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_36" name="P65_tc" simulationType="assignment" compartment="Compartment_3">
+      <Metabolite key="Metabolite_19" name="P65_tc" simulationType="assignment" compartment="Compartment_3">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_36">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:27:28Z</dcterms:W3CDTF>
@@ -212,18 +200,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[P32_tm],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P65_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P65_c_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P65_tc_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[P32_tm],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P65_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P65_c_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P65_tc_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_20" name="MgPa_m" simulationType="assignment" compartment="Compartment_5">
+      <Metabolite key="Metabolite_21" name="MgPa_m" simulationType="assignment" compartment="Compartment_5">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_20">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:01:41Z</dcterms:W3CDTF>
@@ -231,18 +216,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[MgPa_m_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[MgPa_m_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_28" name="P32_m" simulationType="assignment" compartment="Compartment_5">
+      <Metabolite key="Metabolite_23" name="P32_m" simulationType="assignment" compartment="Compartment_5">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_28">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:20:41Z</dcterms:W3CDTF>
@@ -250,18 +232,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW3_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P32_m_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW3_tc],Reference=ParticleNumber&gt; gt 0,0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P32_m_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_38" name="P110_m" simulationType="assignment" compartment="Compartment_5">
+      <Metabolite key="Metabolite_25" name="P110_m" simulationType="assignment" compartment="Compartment_5">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_38">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:15:59Z</dcterms:W3CDTF>
@@ -269,18 +248,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           0
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_1" name="HMW1_tc" simulationType="assignment" compartment="Compartment_5">
+      <Metabolite key="Metabolite_27" name="HMW1_tc" simulationType="assignment" compartment="Compartment_5">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_1">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T16:25:21Z</dcterms:W3CDTF>
@@ -288,18 +264,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0 AND &lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_22" name="MgPa_tm" simulationType="assignment" compartment="Compartment_7">
+      <Metabolite key="Metabolite_29" name="MgPa_tm" simulationType="assignment" compartment="Compartment_7">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_22">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T23:13:18Z</dcterms:W3CDTF>
@@ -307,18 +280,15 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[MgPa_tm_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[MgPa_m_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[MgPa_tm_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[MgPa_tm_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[MgPa_m_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[MgPa_tm_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
-      <Metabolite key="Metabolite_30" name="P32_tm" simulationType="assignment" compartment="Compartment_7">
+      <Metabolite key="Metabolite_31" name="P32_tm" simulationType="assignment" compartment="Compartment_7">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_30">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2015-03-10T15:47:51Z</dcterms:W3CDTF>
@@ -326,19 +296,16 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          if(&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW3_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P32_tm_init],Reference=Value&gt;+&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P32_m_init],Reference=Value&gt;,&lt;CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P32_tm_init],Reference=Value&gt;)
+          if(&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW3_tc],Reference=ParticleNumber&gt; gt 0,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P32_tm_init],Reference=Value&gt;+&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P32_m_init],Reference=Value&gt;,&lt;CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P32_tm_init],Reference=Value&gt;)
         </Expression>
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
       <ModelValue key="ModelValue_0" name="HMW1_c_init" simulationType="fixed">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_0">
     <dcterms:created>
       <rdf:Description>
@@ -347,7 +314,6 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_1" name="HMW1_tc_init" simulationType="fixed">
@@ -356,9 +322,7 @@
       </ModelValue>
       <ModelValue key="ModelValue_3" name="HMW2_tc_init" simulationType="fixed">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_3">
     <dcterms:created>
       <rdf:Description>
@@ -367,16 +331,13 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_4" name="HMW3_c_init" simulationType="fixed">
       </ModelValue>
       <ModelValue key="ModelValue_5" name="HMW3_tc_init" simulationType="fixed">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_5">
     <dcterms:created>
       <rdf:Description>
@@ -385,7 +346,6 @@
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_6" name="MgPa_m_init" simulationType="fixed">
@@ -412,49 +372,49 @@
     <ListOfModelParameterSets activeSet="ModelParameterSet_0">
       <ModelParameterSet key="ModelParameterSet_0" name="Initial State">
         <ModelParameterGroup cn="String=Initial Time" type="Group">
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly" value="0" type="Model" simulationType="time"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol]" value="1" type="Compartment" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol]" value="1" type="Compartment" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane]" value="1" type="Compartment" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle membrane]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle membrane]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_c]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW2_c]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW3_c]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[P200_c]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[P65_c]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[P110_tm]" value="6" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW2_tc]" value="9" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW3_tc]" value="8" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[P200_tc]" value="5" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[P65_tc]" value="3" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[MgPa_m]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[P32_m]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[P110_m]" value="0" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc]" value="10" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[MgPa_tm]" value="7" type="Species" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[P32_tm]" value="4" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_c]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW2_c]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW3_c]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[P200_c]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[P65_c]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[P110_tm]" value="6" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW2_tc]" value="9" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[HMW3_tc]" value="8" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[P200_tc]" value="5" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle cytosol],Vector=Metabolites[P65_tc]" value="3" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[MgPa_m]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[P32_m]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[P110_m]" value="0" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc]" value="10" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[MgPa_tm]" value="7" type="Species" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[terminal organelle membrane],Vector=Metabolites[P32_tm]" value="4" type="Species" simulationType="assignment"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_c_init]" value="10" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW1_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_c_init]" value="9" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW2_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW3_c_init]" value="8" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[HMW3_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[MgPa_m_init]" value="7" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[MgPa_tm_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P110_m_init]" value="6" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P110_tm_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P200_c_init]" value="5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P200_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P32_m_init]" value="4" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P32_tm_init]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P65_c_init]" value="3" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Values[P65_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_c_init]" value="10" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW1_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_c_init]" value="9" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW2_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW3_c_init]" value="8" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[HMW3_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[MgPa_m_init]" value="7" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[MgPa_tm_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P110_m_init]" value="6" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P110_tm_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P200_c_init]" value="5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P200_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P32_m_init]" value="4" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P32_tm_init]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P65_c_init]" value="3" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Values[P65_tc_init]" value="0" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
         </ModelParameterGroup>
@@ -462,22 +422,22 @@
     </ListOfModelParameterSets>
     <StateTemplate>
       <StateTemplateVariable objectReference="Model_4"/>
-      <StateTemplateVariable objectReference="Metabolite_5"/>
-      <StateTemplateVariable objectReference="Metabolite_12"/>
-      <StateTemplateVariable objectReference="Metabolite_16"/>
-      <StateTemplateVariable objectReference="Metabolite_24"/>
-      <StateTemplateVariable objectReference="Metabolite_32"/>
-      <StateTemplateVariable objectReference="Metabolite_40"/>
-      <StateTemplateVariable objectReference="Metabolite_14"/>
-      <StateTemplateVariable objectReference="Metabolite_18"/>
-      <StateTemplateVariable objectReference="Metabolite_26"/>
-      <StateTemplateVariable objectReference="Metabolite_36"/>
-      <StateTemplateVariable objectReference="Metabolite_20"/>
-      <StateTemplateVariable objectReference="Metabolite_28"/>
-      <StateTemplateVariable objectReference="Metabolite_38"/>
       <StateTemplateVariable objectReference="Metabolite_1"/>
-      <StateTemplateVariable objectReference="Metabolite_22"/>
-      <StateTemplateVariable objectReference="Metabolite_30"/>
+      <StateTemplateVariable objectReference="Metabolite_3"/>
+      <StateTemplateVariable objectReference="Metabolite_5"/>
+      <StateTemplateVariable objectReference="Metabolite_7"/>
+      <StateTemplateVariable objectReference="Metabolite_9"/>
+      <StateTemplateVariable objectReference="Metabolite_11"/>
+      <StateTemplateVariable objectReference="Metabolite_13"/>
+      <StateTemplateVariable objectReference="Metabolite_15"/>
+      <StateTemplateVariable objectReference="Metabolite_17"/>
+      <StateTemplateVariable objectReference="Metabolite_19"/>
+      <StateTemplateVariable objectReference="Metabolite_21"/>
+      <StateTemplateVariable objectReference="Metabolite_23"/>
+      <StateTemplateVariable objectReference="Metabolite_25"/>
+      <StateTemplateVariable objectReference="Metabolite_27"/>
+      <StateTemplateVariable objectReference="Metabolite_29"/>
+      <StateTemplateVariable objectReference="Metabolite_31"/>
       <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="Compartment_3"/>
       <StateTemplateVariable objectReference="Compartment_5"/>
@@ -544,6 +504,11 @@
         <Parameter name="Relative Tolerance" type="unsignedFloat" value="1e-006"/>
         <Parameter name="Use Default Absolute Tolerance" type="bool" value="1"/>
         <Parameter name="Absolute Tolerance" type="unsignedFloat" value="1e-012"/>
+        <Parameter name="Max Internal Steps (LSODA)" type="unsignedInteger" value="10000"/>
+        <Parameter name="Partitioning Stepsize" type="float" value="0.001"/>
+        <Parameter name="Relative Tolerance" type="unsignedFloat" value="1e-006"/>
+        <Parameter name="Use Default Absolute Tolerance" type="bool" value="1"/>
+        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="1000000000"/>
         <Parameter name="Max Internal Steps (LSODA)" type="unsignedInteger" value="10000"/>
       </Method>
     </Task>
@@ -856,8 +821,8 @@
           <Parameter name="Recording Activity" type="string" value="during"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_c],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_c],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="HMW1_c_init.ParticleNumber|Time" type="Curve2D">
@@ -868,8 +833,8 @@
           <Parameter name="Recording Activity" type="string" value="during"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_c_init],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_c_init],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="HMW1_tc.ParticleNumber|Time" type="Curve2D">
@@ -880,8 +845,8 @@
           <Parameter name="Recording Activity" type="string" value="during"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[membrane],Vector=Metabolites[HMW1_tc],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="HMW1_tc_init.ParticleNumber|Time" type="Curve2D">
@@ -892,8 +857,8 @@
           <Parameter name="Recording Activity" type="string" value="during"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=TErminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_tc_init],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=WCM_3_24_Terminal Organelle Assembly,Vector=Compartments[cytosol],Vector=Metabolites[HMW1_tc_init],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
